@@ -1,0 +1,2 @@
+/usr/bin/ar qc libscservo_lib.a CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o
+/usr/bin/ranlib libscservo_lib.a
