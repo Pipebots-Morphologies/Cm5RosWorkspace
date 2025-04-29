@@ -1,0 +1,12 @@
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kind[m[K’ does not name a type; did you mean ‘[01m[Kint[m[K’?
+   40 |     [01;31m[Kind[m[K speed = 300;
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kint[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:[m[K In member function ‘[01m[Kvoid ServoController::[01;32m[KmoveSc[m[K(int)[m[K’:
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:43:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope; did you mean ‘[01m[Kspeed_t[m[K’?
+   43 |         sc.WritePos(id, 1000, [01;31m[Kspeed[m[K, 1500);
+      |                               [01;31m[K^~~~~[m[K
+      |                               [32m[Kspeed_t[m[K
+gmake[2]: *** [CMakeFiles/moveServo.dir/build.make:76: CMakeFiles/moveServo.dir/src/moveServo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/moveServo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

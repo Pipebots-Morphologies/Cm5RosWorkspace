@@ -1,0 +1,15 @@
+[ 46%] Built target scservo_lib
+[ 73%] Built target STServoTests
+[ 73%] Built target servo_node
+[ 93%] Built target moveServo
+[ 93%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:[m[K In member function ‘[01m[Kvoid ServoConfig::[01;32m[KchangeID[m[K()[m[K’:
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:153:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentId[m[K’ was not declared in this scope
+  153 |         [01;31m[KcurrentId[m[K = 1;
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:154:9:[m[K [01;31m[Kerror: [m[K‘[01m[KnewId[m[K’ was not declared in this scope
+  154 |         [01;31m[KnewId[m[K = 3;
+      |         [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/servoConfig.dir/build.make:76: CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/servoConfig.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

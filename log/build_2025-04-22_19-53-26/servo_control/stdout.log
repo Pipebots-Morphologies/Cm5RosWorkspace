@@ -1,0 +1,8 @@
+[ 33%] Built target scservo_lib
+[ 52%] Built target servo_node
+[ 52%] Built target STServoTests
+[ 71%] Built target servoConfig
+[ 71%] Built target moveServo
+[ 90%] Built target servoFeedback
+[ 90%] Built target servoRepair
+[ 95%] [32mBuilding CXX object CMakeFiles/changeId.dir/src/changeId.cpp.o[0m

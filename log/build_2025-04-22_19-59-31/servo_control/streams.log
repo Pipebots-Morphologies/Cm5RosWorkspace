@@ -1,0 +1,63 @@
+[0.025s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.206s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.612s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.672s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.725s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.759s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.904s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.908s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.044s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.181s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.417s] -- Configuring done (1.2s)
+[1.506s] -- Generating done (0.1s)
+[1.531s] -- Build files have been written to: /home/andy/ros2_ws/build/servo_control
+[1.617s] [ 33%] Built target scservo_lib
+[1.677s] [ 52%] Built target STServoTests
+[1.677s] [ 52%] Built target servo_node
+[1.706s] [ 61%] [32mBuilding CXX object CMakeFiles/moveServo.dir/src/moveServo.cpp.o[0m
+[1.707s] [ 61%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+[1.743s] [ 71%] [32mBuilding CXX object CMakeFiles/servoFeedback.dir/src/servoFeedback.cpp.o[0m
+[1.743s] [ 71%] [32mBuilding CXX object CMakeFiles/servoRepair.dir/src/servoRepair.cpp.o[0m
+[18.164s] [ 76%] [32m[1mLinking CXX executable servoRepair[0m
+[18.192s] [ 85%] [32m[1mLinking CXX executable servoFeedback[0m
+[18.194s] [ 85%] [32m[1mLinking CXX executable servoConfig[0m
+[18.676s] [ 90%] [32m[1mLinking CXX executable moveServo[0m
+[19.918s] [ 90%] Built target servoRepair
+[19.919s] [ 90%] Built target servoConfig
+[19.921s] [ 90%] Built target servoFeedback
+[19.961s] [ 95%] [32mBuilding CXX object CMakeFiles/changeId.dir/src/changeId.cpp.o[0m
+[20.033s] [ 95%] Built target moveServo
+[24.077s] [100%] [32m[1mLinking CXX executable changeId[0m
+[24.289s] [100%] Built target changeId
+[24.307s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[24.322s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/andy/ros2_ws/build/servo_control
+[24.335s] -- Install configuration: ""
+[24.336s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/lib/servo_control/servo_node
+[24.337s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/lib/servo_control/STServoTests
+[24.338s] -- Installing: /home/andy/ros2_ws/install/servo_control/lib/servo_control/moveServo
+[24.346s] -- Set non-toolchain portion of runtime path of "/home/andy/ros2_ws/install/servo_control/lib/servo_control/moveServo" to ""
+[24.347s] -- Installing: /home/andy/ros2_ws/install/servo_control/lib/servo_control/servoConfig
+[24.355s] -- Set non-toolchain portion of runtime path of "/home/andy/ros2_ws/install/servo_control/lib/servo_control/servoConfig" to ""
+[24.356s] -- Installing: /home/andy/ros2_ws/install/servo_control/lib/servo_control/changeId
+[24.357s] -- Set non-toolchain portion of runtime path of "/home/andy/ros2_ws/install/servo_control/lib/servo_control/changeId" to ""
+[24.358s] -- Installing: /home/andy/ros2_ws/install/servo_control/lib/servo_control/servoFeedback
+[24.365s] -- Set non-toolchain portion of runtime path of "/home/andy/ros2_ws/install/servo_control/lib/servo_control/servoFeedback" to ""
+[24.366s] -- Installing: /home/andy/ros2_ws/install/servo_control/lib/servo_control/servoRepair
+[24.374s] -- Set non-toolchain portion of runtime path of "/home/andy/ros2_ws/install/servo_control/lib/servo_control/servoRepair" to ""
+[24.374s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/ament_index/resource_index/package_run_dependencies/servo_control
+[24.375s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/ament_index/resource_index/parent_prefix_path/servo_control
+[24.375s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/environment/ament_prefix_path.sh
+[24.375s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/environment/ament_prefix_path.dsv
+[24.375s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/environment/path.sh
+[24.375s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/environment/path.dsv
+[24.375s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/local_setup.bash
+[24.375s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/local_setup.sh
+[24.375s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/local_setup.zsh
+[24.375s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/local_setup.dsv
+[24.376s] -- Installing: /home/andy/ros2_ws/install/servo_control/share/servo_control/package.dsv
+[24.376s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/ament_index/resource_index/packages/servo_control
+[24.376s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/cmake/servo_controlConfig.cmake
+[24.376s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/cmake/servo_controlConfig-version.cmake
+[24.376s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/package.xml
+[24.379s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/andy/ros2_ws/build/servo_control

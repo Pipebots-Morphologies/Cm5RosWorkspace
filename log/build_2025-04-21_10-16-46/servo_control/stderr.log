@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/servoConfig.dir/build.make:76: CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/servoConfig.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

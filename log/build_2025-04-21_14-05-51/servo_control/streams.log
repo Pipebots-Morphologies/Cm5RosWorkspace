@@ -1,0 +1,35 @@
+[0.019s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.114s] [ 46%] Built target scservo_lib
+[0.162s] [ 60%] Built target servo_node
+[0.163s] [ 73%] Built target STServoTests
+[0.171s] [ 86%] Built target moveServo
+[0.179s] [ 93%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+[4.213s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:[m[K In member function ‘[01m[Kvoid ServoConfig::[01;32m[KrealtimeData[m[K(int)[m[K’:
+[4.214s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:107:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Ktrue[m[K’
+[4.214s]   107 |         while [01;31m[Ktrue[m[K{
+[4.214s]       |               [01;31m[K^~~~[m[K
+[4.214s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:107:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[4.214s]   107 |         while true[01;31m[K{[m[K
+[4.214s]       |                   [01;31m[K^[m[K
+[4.214s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:107:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[4.215s]   107 |         while [01;36m[Ktrue[m[K{
+[4.215s]       |               [01;36m[K^~~~[m[K
+[4.224s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[4.224s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[4.224s]                  from [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:1[m[K:
+[4.224s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:116:25:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ was not declared in this scope
+[4.225s]   116 |             RCLCPP_INFO([01;31m[Klogger[m[K, "Current Load: %d", sc.readWord(id, 0x3C));
+[4.225s]       |                         [01;31m[K^~~~~~[m[K
+[4.225s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:116:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.225s]   116 |             [01;31m[KRCLCPP_INFO[m[K(logger, "Current Load: %d", sc.readWord(id, 0x3C));
+[4.225s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.225s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:116:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.225s]   116 |             [01;31m[KRCLCPP_INFO[m[K(logger, "Current Load: %d", sc.readWord(id, 0x3C));
+[4.225s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.225s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:116:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.225s]   116 |             [01;31m[KRCLCPP_INFO[m[K(logger, "Current Load: %d", sc.readWord(id, 0x3C));
+[4.225s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[7.177s] gmake[2]: *** [CMakeFiles/servoConfig.dir/build.make:76: CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o] Error 1
+[7.177s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/servoConfig.dir/all] Error 2
+[7.177s] gmake: *** [Makefile:146: all] Error 2
+[7.181s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4

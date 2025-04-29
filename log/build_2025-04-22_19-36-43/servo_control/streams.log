@@ -1,0 +1,38 @@
+[0.020s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.121s] [ 33%] Built target scservo_lib
+[0.175s] [ 52%] Built target servo_node
+[0.175s] [ 52%] Built target STServoTests
+[0.185s] [ 71%] Built target moveServo
+[0.185s] [ 71%] Built target servoConfig
+[0.229s] [ 80%] Built target servoFeedback
+[0.239s] [ 95%] Built target servoRepair
+[0.239s] [ 95%] [32mBuilding CXX object CMakeFiles/changeId.dir/src/changeId.cpp.o[0m
+[5.197s] [100%] [32m[1mLinking CXX executable changeId[0m
+[5.410s] [100%] Built target changeId
+[5.429s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[5.445s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/andy/ros2_ws/build/servo_control
+[5.457s] -- Install configuration: ""
+[5.457s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/lib/servo_control/servo_node
+[5.457s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/lib/servo_control/STServoTests
+[5.458s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/lib/servo_control/moveServo
+[5.458s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/lib/servo_control/servoConfig
+[5.459s] -- Installing: /home/andy/ros2_ws/install/servo_control/lib/servo_control/changeId
+[5.460s] -- Set non-toolchain portion of runtime path of "/home/andy/ros2_ws/install/servo_control/lib/servo_control/changeId" to ""
+[5.460s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/lib/servo_control/servoFeedback
+[5.461s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/lib/servo_control/servoRepair
+[5.461s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/ament_index/resource_index/package_run_dependencies/servo_control
+[5.461s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/ament_index/resource_index/parent_prefix_path/servo_control
+[5.461s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/environment/ament_prefix_path.sh
+[5.461s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/environment/ament_prefix_path.dsv
+[5.461s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/environment/path.sh
+[5.462s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/environment/path.dsv
+[5.462s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/local_setup.bash
+[5.462s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/local_setup.sh
+[5.462s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/local_setup.zsh
+[5.462s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/local_setup.dsv
+[5.462s] -- Installing: /home/andy/ros2_ws/install/servo_control/share/servo_control/package.dsv
+[5.462s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/ament_index/resource_index/packages/servo_control
+[5.462s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/cmake/servo_controlConfig.cmake
+[5.462s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/cmake/servo_controlConfig-version.cmake
+[5.462s] -- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/package.xml
+[5.465s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/andy/ros2_ws/build/servo_control

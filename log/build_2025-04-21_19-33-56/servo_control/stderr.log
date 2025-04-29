@@ -1,0 +1,4 @@
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:[m[K In member function ‘[01m[Kvoid ServoConfig::[01;32m[Krepair_servo[m[K(int)[m[K’:
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:47:31:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Ku8[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K500[m[K’ to ‘[01m[K244[m[K’ [[01;35m[K-Woverflow[m[K]
+   47 |         sc.writeByte(id, 0x27,[01;35m[K500[m[K);  // set overload torque
+      |                               [01;35m[K^~~[m[K

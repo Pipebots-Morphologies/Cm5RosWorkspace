@@ -1,0 +1,37 @@
+[0.000000] (-) TimerEvent: {}
+[0.000541] (servo_control) JobQueued: {'identifier': 'servo_control', 'dependencies': OrderedDict()}
+[0.001207] (servo_control) JobStarted: {'identifier': 'servo_control'}
+[0.015367] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'cmake'}
+[0.016461] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'build'}
+[0.017483] (servo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andy/ros2_ws/build/servo_control', '--', '-j4', '-l4'], 'cwd': '/home/andy/ros2_ws/build/servo_control', 'env': OrderedDict({'HOSTNAME': 'PipeBot', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/andy', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/andy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'AMENT_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/andy/ros2_ws/build/servo_control', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy'}), 'shell': False}
+[0.078716] (servo_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099603] (-) TimerEvent: {}
+[0.199999] (-) TimerEvent: {}
+[0.300389] (-) TimerEvent: {}
+[0.400814] (-) TimerEvent: {}
+[0.485179] (servo_control) StdoutLine: {'line': b'-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500905] (-) TimerEvent: {}
+[0.541887] (servo_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.564305] (servo_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.593616] (servo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600977] (-) TimerEvent: {}
+[0.626950] (servo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701097] (-) TimerEvent: {}
+[0.767492] (servo_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.771413] (servo_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801178] (-) TimerEvent: {}
+[0.901506] (-) TimerEvent: {}
+[0.906565] (servo_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.001610] (-) TimerEvent: {}
+[1.039308] (servo_control) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.074475] (servo_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:39 (target_link_libraries):\n'}
+[1.074794] (servo_control) StderrLine: {'line': b'  Cannot specify link libraries for target "SservoConfig" which is not built\n'}
+[1.074926] (servo_control) StderrLine: {'line': b'  by this project.\n'}
+[1.075066] (servo_control) StderrLine: {'line': b'\n'}
+[1.075226] (servo_control) StderrLine: {'line': b'\x1b[0m\n'}
+[1.075337] (servo_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.086211] (servo_control) StderrLine: {'line': b'gmake: *** [Makefile:525: cmake_check_build_system] Error 1\n'}
+[1.090298] (servo_control) CommandEnded: {'returncode': 2}
+[1.104673] (-) TimerEvent: {}
+[1.112459] (servo_control) JobEnded: {'identifier': 'servo_control', 'rc': 2}
+[1.123112] (-) EventReactorShutdown: {}

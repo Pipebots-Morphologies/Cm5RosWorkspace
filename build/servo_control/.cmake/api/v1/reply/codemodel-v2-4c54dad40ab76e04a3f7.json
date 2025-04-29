@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3746a7b29c250546cc8a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "servo_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "STServoTests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STServoTests-3300059d9f6ada1f8582.json",
+					"name" : "STServoTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "changeId::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-changeId-daa751e67380d16a1c61.json",
+					"name" : "changeId",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveServo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveServo-76a931c34979303ad28e.json",
+					"name" : "moveServo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scservo_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scservo_lib-e4c5c054e2c28001b6bd.json",
+					"name" : "scservo_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servoConfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servoConfig-98cbeea82277544cc158.json",
+					"name" : "servoConfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servoFeedback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servoFeedback-847151ec316b680fc982.json",
+					"name" : "servoFeedback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servoRepair::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servoRepair-ba2f3a5512a996ad7af2.json",
+					"name" : "servoRepair",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_control_uninstall-b7361bc37e315666c27a.json",
+					"name" : "servo_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_node-e6873c0fc9b147d2c949.json",
+					"name" : "servo_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4b6e861ebf61e5785baf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/andy/ros2_ws/build/servo_control",
+		"source" : "/home/andy/ros2_ws/src/servo_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

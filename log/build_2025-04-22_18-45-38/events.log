@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000537] (servo_control) JobQueued: {'identifier': 'servo_control', 'dependencies': OrderedDict()}
+[0.001461] (servo_control) JobStarted: {'identifier': 'servo_control'}
+[0.016122] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'cmake'}
+[0.017260] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'build'}
+[0.018327] (servo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andy/ros2_ws/build/servo_control', '--', '-j4', '-l4'], 'cwd': '/home/andy/ros2_ws/build/servo_control', 'env': OrderedDict({'HOSTNAME': 'PipeBot', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/andy', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/andy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'AMENT_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/andy/ros2_ws/build/servo_control', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy'}), 'shell': False}
+[0.082526] (servo_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099575] (-) TimerEvent: {}
+[0.199938] (-) TimerEvent: {}
+[0.300322] (-) TimerEvent: {}
+[0.400690] (-) TimerEvent: {}
+[0.501056] (-) TimerEvent: {}
+[0.504839] (servo_control) StdoutLine: {'line': b'-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.565791] (servo_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.590025] (servo_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.601122] (-) TimerEvent: {}
+[0.621881] (servo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.657233] (servo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701231] (-) TimerEvent: {}
+[0.801601] (-) TimerEvent: {}
+[0.806867] (servo_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.811128] (servo_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901712] (-) TimerEvent: {}
+[0.953724] (servo_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.001807] (-) TimerEvent: {}
+[1.095327] (servo_control) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.101887] (-) TimerEvent: {}
+[1.202170] (-) TimerEvent: {}
+[1.302575] (-) TimerEvent: {}
+[1.337536] (servo_control) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.399246] (servo_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.402647] (-) TimerEvent: {}
+[1.419775] (servo_control) StdoutLine: {'line': b'-- Build files have been written to: /home/andy/ros2_ws/build/servo_control\n'}
+[1.496340] (servo_control) StdoutLine: {'line': b'[ 41%] Built target scservo_lib\n'}
+[1.505505] (-) TimerEvent: {}
+[1.550613] (servo_control) StdoutLine: {'line': b'[ 58%] Built target STServoTests\n'}
+[1.551029] (servo_control) StdoutLine: {'line': b'[ 64%] Built target servo_node\n'}
+[1.561827] (servo_control) StdoutLine: {'line': b'[ 88%] Built target moveServo\n'}
+[1.562275] (servo_control) StdoutLine: {'line': b'[ 88%] Built target servoConfig\n'}
+[1.591233] (servo_control) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/changeId.dir/src/changeId.cpp.o\x1b[0m\n'}
+[1.605634] (-) TimerEvent: {}
+[1.706056] (-) TimerEvent: {}
+[1.806470] (-) TimerEvent: {}
+[1.906847] (-) TimerEvent: {}
+[2.007223] (-) TimerEvent: {}
+[2.107627] (-) TimerEvent: {}
+[2.166466] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kscservo/SCSerial.h: No such file or directory\n'}
+[2.166843] (servo_control) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K"scservo/SCSerial.h"\x1b[m\x1b[K\n'}
+[2.166989] (servo_control) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.167113] (servo_control) StderrLine: {'line': b'compilation terminated.\n'}
+[2.172223] (servo_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/changeId.dir/build.make:76: CMakeFiles/changeId.dir/src/changeId.cpp.o] Error 1\n'}
+[2.172539] (servo_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/changeId.dir/all] Error 2\n'}
+[2.172815] (servo_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.177205] (servo_control) CommandEnded: {'returncode': 2}
+[2.199911] (servo_control) JobEnded: {'identifier': 'servo_control', 'rc': 2}
+[2.207707] (-) TimerEvent: {}
+[2.210699] (-) EventReactorShutdown: {}

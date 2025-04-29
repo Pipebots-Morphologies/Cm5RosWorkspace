@@ -1,0 +1,10 @@
+[0.020s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.120s] [ 46%] Built target scservo_lib
+[0.169s] [ 73%] Built target STServoTests
+[0.172s] [ 73%] Built target servo_node
+[0.181s] [ 86%] Built target moveServo
+[0.191s] [ 93%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+[4.668s] gmake[2]: *** [CMakeFiles/servoConfig.dir/build.make:76: CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o] Interrupt
+[4.669s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/servoConfig.dir/all] Interrupt
+[4.669s] gmake: *** [Makefile:146: all] Interrupt
+[4.703s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4

@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000337] (servo_control) JobQueued: {'identifier': 'servo_control', 'dependencies': OrderedDict()}
+[0.001509] (servo_control) JobStarted: {'identifier': 'servo_control'}
+[0.016015] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'cmake'}
+[0.017159] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'build'}
+[0.018221] (servo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andy/ros2_ws/build/servo_control', '--', '-j4', '-l4'], 'cwd': '/home/andy/ros2_ws/build/servo_control', 'env': OrderedDict({'HOSTNAME': 'PipeBot', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/andy', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/andy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'AMENT_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/andy/ros2_ws/build/servo_control', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy'}), 'shell': False}
+[0.099626] (-) TimerEvent: {}
+[0.127126] (servo_control) StdoutLine: {'line': b'[ 41%] Built target scservo_lib\n'}
+[0.180661] (servo_control) StdoutLine: {'line': b'[ 64%] Built target servo_node\n'}
+[0.181240] (servo_control) StdoutLine: {'line': b'[ 64%] Built target STServoTests\n'}
+[0.191812] (servo_control) StdoutLine: {'line': b'[ 88%] Built target moveServo\n'}
+[0.192150] (servo_control) StdoutLine: {'line': b'[ 88%] Built target servoConfig\n'}
+[0.199755] (-) TimerEvent: {}
+[0.221927] (servo_control) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/changeId.dir/src/changeId.cpp.o\x1b[0m\n'}
+[0.299877] (-) TimerEvent: {}
+[0.400265] (-) TimerEvent: {}
+[0.500649] (-) TimerEvent: {}
+[0.601038] (-) TimerEvent: {}
+[0.701389] (-) TimerEvent: {}
+[0.801784] (-) TimerEvent: {}
+[0.902144] (-) TimerEvent: {}
+[1.002499] (-) TimerEvent: {}
+[1.102888] (-) TimerEvent: {}
+[1.203246] (-) TimerEvent: {}
+[1.303616] (-) TimerEvent: {}
+[1.404002] (-) TimerEvent: {}
+[1.504369] (-) TimerEvent: {}
+[1.604755] (-) TimerEvent: {}
+[1.705116] (-) TimerEvent: {}
+[1.805478] (-) TimerEvent: {}
+[1.905846] (-) TimerEvent: {}
+[2.006198] (-) TimerEvent: {}
+[2.106553] (-) TimerEvent: {}
+[2.206929] (-) TimerEvent: {}
+[2.307277] (-) TimerEvent: {}
+[2.407660] (-) TimerEvent: {}
+[2.508036] (-) TimerEvent: {}
+[2.608412] (-) TimerEvent: {}
+[2.708794] (-) TimerEvent: {}
+[2.809161] (-) TimerEvent: {}
+[2.909542] (-) TimerEvent: {}
+[3.009926] (-) TimerEvent: {}
+[3.110278] (-) TimerEvent: {}
+[3.210657] (-) TimerEvent: {}
+[3.311030] (-) TimerEvent: {}
+[3.411385] (-) TimerEvent: {}
+[3.511749] (-) TimerEvent: {}
+[3.612096] (-) TimerEvent: {}
+[3.712440] (-) TimerEvent: {}
+[3.812799] (-) TimerEvent: {}
+[3.913151] (-) TimerEvent: {}
+[4.013506] (-) TimerEvent: {}
+[4.113884] (-) TimerEvent: {}
+[4.214231] (-) TimerEvent: {}
+[4.282411] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.282875] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:24:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[4.283023] (servo_control) StderrLine: {'line': b'   24 |         sc.begin(\x1b[01;31m\x1b[K"/dev/ttyAMA0"\x1b[m\x1b[K, 1000000); // Adjust port and baudrate\n'}
+[4.283148] (servo_control) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.283284] (servo_control) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[4.283395] (servo_control) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[4.283504] (servo_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/include/servo_control/SMSBL.h:63\x1b[m\x1b[K,\n'}
+[4.283631] (servo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/include/servo_control/SCServo.h:11\x1b[m\x1b[K,\n'}
+[4.283743] (servo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:4\x1b[m\x1b[K:\n'}
+[4.283852] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/include/servo_control/SCSerial.h:38:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool SCSerial::\x1b[01;32m\x1b[Kbegin\x1b[m\x1b[K(int, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.283964] (servo_control) StderrLine: {'line': b'   38 |         virtual bool begin(\x1b[01;36m\x1b[Kint baudRate\x1b[m\x1b[K, const char* serialPort);\n'}
+[4.284071] (servo_control) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.284176] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:24:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[4.284285] (servo_control) StderrLine: {'line': b'   24 |         sc.begin("/dev/ttyAMA0", \x1b[01;31m\x1b[K1000000\x1b[m\x1b[K); // Adjust port and baudrate\n'}
+[4.284389] (servo_control) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.284492] (servo_control) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[4.284606] (servo_control) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.284718] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/include/servo_control/SCSerial.h:38:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool SCSerial::\x1b[01;32m\x1b[Kbegin\x1b[m\x1b[K(int, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.284825] (servo_control) StderrLine: {'line': b'   38 |         virtual bool begin(int baudRate, \x1b[01;36m\x1b[Kconst char* serialPort\x1b[m\x1b[K);\n'}
+[4.284930] (servo_control) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.285035] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:33:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[4.285142] (servo_control) StderrLine: {'line': b'   33 |         sm_st.begin(\x1b[01;31m\x1b[K"/dev/ttyAMA0"\x1b[m\x1b[K, 1000000); // Adjust port and baudrate\n'}
+[4.285246] (servo_control) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.285349] (servo_control) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[4.285452] (servo_control) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[4.285556] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/include/servo_control/SCSerial.h:38:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool SCSerial::\x1b[01;32m\x1b[Kbegin\x1b[m\x1b[K(int, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.285695] (servo_control) StderrLine: {'line': b'   38 |         virtual bool begin(\x1b[01;36m\x1b[Kint baudRate\x1b[m\x1b[K, const char* serialPort);\n'}
+[4.285804] (servo_control) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.285907] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:33:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[4.286014] (servo_control) StderrLine: {'line': b'   33 |         sm_st.begin("/dev/ttyAMA0", \x1b[01;31m\x1b[K1000000\x1b[m\x1b[K); // Adjust port and baudrate\n'}
+[4.286129] (servo_control) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.286233] (servo_control) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[4.286335] (servo_control) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.286437] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/include/servo_control/SCSerial.h:38:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool SCSerial::\x1b[01;32m\x1b[Kbegin\x1b[m\x1b[K(int, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.286541] (servo_control) StderrLine: {'line': b'   38 |         virtual bool begin(int baudRate, \x1b[01;36m\x1b[Kconst char* serialPort\x1b[m\x1b[K);\n'}
+[4.286670] (servo_control) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.314311] (-) TimerEvent: {}
+[4.414645] (-) TimerEvent: {}
+[4.515023] (-) TimerEvent: {}
+[4.615386] (-) TimerEvent: {}
+[4.715775] (-) TimerEvent: {}
+[4.816153] (-) TimerEvent: {}
+[4.916510] (-) TimerEvent: {}
+[5.016853] (-) TimerEvent: {}
+[5.117176] (-) TimerEvent: {}
+[5.217611] (-) TimerEvent: {}
+[5.249758] (servo_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/changeId.dir/build.make:76: CMakeFiles/changeId.dir/src/changeId.cpp.o] Error 1\n'}
+[5.250045] (servo_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/changeId.dir/all] Error 2\n'}
+[5.250196] (servo_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.253181] (servo_control) CommandEnded: {'returncode': 2}
+[5.268595] (servo_control) JobEnded: {'identifier': 'servo_control', 'rc': 2}
+[5.269875] (-) EventReactorShutdown: {}

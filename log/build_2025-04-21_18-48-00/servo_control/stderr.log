@@ -1,0 +1,13 @@
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:39:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before numeric constant
+   39 |     std::vector<int> SC3215 = { 2 [01;31m[K3[m[K};
+      |                                   [01;31m[K^[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:39:31:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   39 |     std::vector<int> SC3215 = [01;36m[K{[m[K 2 3};
+      |                               [01;36m[K^[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:39:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before numeric constant
+   39 |     std::vector<int> SC3215 = { 2 [01;31m[K3[m[K};
+      |                                   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/moveServo.dir/build.make:76: CMakeFiles/moveServo.dir/src/moveServo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/moveServo.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

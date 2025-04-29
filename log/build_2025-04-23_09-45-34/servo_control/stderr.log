@@ -1,0 +1,16 @@
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:40:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SCSerial[m[K’ has no member named ‘[01m[KunLockEprom[m[K’
+   40 |         sm_st.[01;31m[KunLockEprom[m[K(old_id);
+      |               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:42:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SCSerial[m[K’ has no member named ‘[01m[KLockEprom[m[K’
+   42 |         sm_st.[01;31m[KLockEprom[m[K(new_id);
+      |               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:46:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint ID[m[K’
+   46 |         int [01;31m[KID[m[K = sm_st.Ping(new_id);
+      |             [01;31m[K^~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:43:13:[m[K [01;36m[Knote: [m[K‘[01m[Kint ID[m[K’ previously declared here
+   43 |         int [01;36m[KID[m[K = sm_st.Ping(new_id);
+      |             [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/changeId.dir/build.make:76: CMakeFiles/changeId.dir/src/changeId.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/changeId.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/root/ros2_ws/src/servo_control/include -I/root/ros2_ws/src/servo_control/include/servo_control
+CXX_INCLUDES = -I/home/andy/ros2_ws/src/servo_control/include -I/home/andy/ros2_ws/src/servo_control/include/servo_control
 
 CXX_FLAGS = 
 

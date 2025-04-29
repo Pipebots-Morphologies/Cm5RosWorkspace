@@ -1,0 +1,20 @@
+[ 46%] Built target scservo_lib
+[ 73%] Built target servo_node
+[ 73%] Built target STServoTests
+[ 80%] [32mBuilding CXX object CMakeFiles/moveServo.dir/src/moveServo.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:39:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before numeric constant
+   39 |     std::vector<int> SC3215 = { 2 [01;31m[K3[m[K};
+      |                                   [01;31m[K^[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:39:31:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   39 |     std::vector<int> SC3215 = [01;36m[K{[m[K 2 3};
+      |                               [01;36m[K^[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:39:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before numeric constant
+   39 |     std::vector<int> SC3215 = { 2 [01;31m[K3[m[K};
+      |                                   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/moveServo.dir/build.make:76: CMakeFiles/moveServo.dir/src/moveServo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/moveServo.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 93%] [32m[1mLinking CXX executable servoConfig[0m
+[ 93%] Built target servoConfig
+gmake: *** [Makefile:146: all] Error 2

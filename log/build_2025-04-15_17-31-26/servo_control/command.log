@@ -1,2 +1,0 @@
-Invoking command in '/root/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/servo_control -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/servo_control
-Invoked command in '/root/ros2_ws/build/servo_control' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/servo_control -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/servo_control

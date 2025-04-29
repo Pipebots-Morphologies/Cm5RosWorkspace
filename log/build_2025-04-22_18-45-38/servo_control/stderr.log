@@ -1,0 +1,7 @@
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kscservo/SCSerial.h: No such file or directory
+    4 | #include [01;31m[K"scservo/SCSerial.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/changeId.dir/build.make:76: CMakeFiles/changeId.dir/src/changeId.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/changeId.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,9 +1,9 @@
 CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o: \
- /root/ros2_ws/src/servo_control/src/lib/SCSerial.cpp \
+ /home/andy/ros2_ws/src/servo_control/src/lib/SCSerial.cpp \
  /usr/include/stdc-predef.h \
- /root/ros2_ws/src/servo_control/include/servo_control/SCSerial.h \
- /root/ros2_ws/src/servo_control/include/servo_control/SCS.h \
- /root/ros2_ws/src/servo_control/include/servo_control/INST.h \
+ /home/andy/ros2_ws/src/servo_control/include/servo_control/SCSerial.h \
+ /home/andy/ros2_ws/src/servo_control/include/servo_control/SCS.h \
+ /home/andy/ros2_ws/src/servo_control/include/servo_control/INST.h \
  /usr/include/stdio.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

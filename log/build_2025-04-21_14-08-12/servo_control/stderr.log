@@ -1,0 +1,7 @@
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:[m[K In member function ‘[01m[Kvoid ServoConfig::[01;32m[KrealtimeData[m[K(int)[m[K’:
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:127:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  127 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/servoConfig.dir/build.make:76: CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/servoConfig.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

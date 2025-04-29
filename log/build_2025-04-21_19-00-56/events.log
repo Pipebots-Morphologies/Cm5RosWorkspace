@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.000548] (servo_control) JobQueued: {'identifier': 'servo_control', 'dependencies': OrderedDict()}
+[0.001026] (servo_control) JobStarted: {'identifier': 'servo_control'}
+[0.016256] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'cmake'}
+[0.017401] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'build'}
+[0.018617] (servo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andy/ros2_ws/build/servo_control', '--', '-j4', '-l4'], 'cwd': '/home/andy/ros2_ws/build/servo_control', 'env': OrderedDict({'HOSTNAME': 'PipeBot', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/andy', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/andy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'AMENT_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/andy/ros2_ws/build/servo_control', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy'}), 'shell': False}
+[0.099629] (-) TimerEvent: {}
+[0.129068] (servo_control) StdoutLine: {'line': b'[ 46%] Built target scservo_lib\n'}
+[0.183631] (servo_control) StdoutLine: {'line': b'[ 73%] Built target STServoTests\n'}
+[0.184123] (servo_control) StdoutLine: {'line': b'[ 73%] Built target servo_node\n'}
+[0.193744] (servo_control) StdoutLine: {'line': b'[ 86%] Built target moveServo\n'}
+[0.199755] (-) TimerEvent: {}
+[0.203035] (servo_control) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o\x1b[0m\n'}
+[0.299881] (-) TimerEvent: {}
+[0.400293] (-) TimerEvent: {}
+[0.500703] (-) TimerEvent: {}
+[0.601108] (-) TimerEvent: {}
+[0.701537] (-) TimerEvent: {}
+[0.801955] (-) TimerEvent: {}
+[0.902386] (-) TimerEvent: {}
+[1.002800] (-) TimerEvent: {}
+[1.103220] (-) TimerEvent: {}
+[1.203625] (-) TimerEvent: {}
+[1.304021] (-) TimerEvent: {}
+[1.404431] (-) TimerEvent: {}
+[1.504830] (-) TimerEvent: {}
+[1.605239] (-) TimerEvent: {}
+[1.705631] (-) TimerEvent: {}
+[1.805996] (-) TimerEvent: {}
+[1.906371] (-) TimerEvent: {}
+[2.006731] (-) TimerEvent: {}
+[2.107084] (-) TimerEvent: {}
+[2.207477] (-) TimerEvent: {}
+[2.307835] (-) TimerEvent: {}
+[2.408219] (-) TimerEvent: {}
+[2.508581] (-) TimerEvent: {}
+[2.608945] (-) TimerEvent: {}
+[2.709316] (-) TimerEvent: {}
+[2.809672] (-) TimerEvent: {}
+[2.910044] (-) TimerEvent: {}
+[3.010429] (-) TimerEvent: {}
+[3.110778] (-) TimerEvent: {}
+[3.211160] (-) TimerEvent: {}
+[3.311611] (-) TimerEvent: {}
+[3.411961] (-) TimerEvent: {}
+[3.512326] (-) TimerEvent: {}
+[3.612690] (-) TimerEvent: {}
+[3.713037] (-) TimerEvent: {}
+[3.813405] (-) TimerEvent: {}
+[3.913741] (-) TimerEvent: {}
+[4.014095] (-) TimerEvent: {}
+[4.114522] (-) TimerEvent: {}
+[4.215044] (-) TimerEvent: {}
+[4.315398] (-) TimerEvent: {}
+[4.415737] (-) TimerEvent: {}
+[4.516081] (-) TimerEvent: {}
+[4.616445] (-) TimerEvent: {}
+[4.716799] (-) TimerEvent: {}
+[4.817145] (-) TimerEvent: {}
+[4.917523] (-) TimerEvent: {}
+[5.017900] (-) TimerEvent: {}
+[5.118263] (-) TimerEvent: {}
+[5.218610] (-) TimerEvent: {}
+[5.318969] (-) TimerEvent: {}
+[5.419332] (-) TimerEvent: {}
+[5.519691] (-) TimerEvent: {}
+[5.620061] (-) TimerEvent: {}
+[5.720451] (-) TimerEvent: {}
+[5.820824] (-) TimerEvent: {}
+[5.921217] (-) TimerEvent: {}
+[6.021569] (-) TimerEvent: {}
+[6.121886] (-) TimerEvent: {}
+[6.222223] (-) TimerEvent: {}
+[6.322546] (-) TimerEvent: {}
+[6.422869] (-) TimerEvent: {}
+[6.523207] (-) TimerEvent: {}
+[6.623541] (-) TimerEvent: {}
+[6.723872] (-) TimerEvent: {}
+[6.824229] (-) TimerEvent: {}
+[6.924563] (-) TimerEvent: {}
+[7.024921] (-) TimerEvent: {}
+[7.125263] (-) TimerEvent: {}
+[7.225643] (-) TimerEvent: {}
+[7.326007] (-) TimerEvent: {}
+[7.426404] (-) TimerEvent: {}
+[7.526773] (-) TimerEvent: {}
+[7.627123] (-) TimerEvent: {}
+[7.727494] (-) TimerEvent: {}
+[7.827834] (-) TimerEvent: {}
+[7.928189] (-) TimerEvent: {}
+[8.028526] (-) TimerEvent: {}
+[8.128904] (-) TimerEvent: {}
+[8.229334] (-) TimerEvent: {}
+[8.329655] (-) TimerEvent: {}
+[8.429985] (-) TimerEvent: {}
+[8.530334] (-) TimerEvent: {}
+[8.630653] (-) TimerEvent: {}
+[8.730969] (-) TimerEvent: {}
+[8.831288] (-) TimerEvent: {}
+[8.931603] (-) TimerEvent: {}
+[9.031908] (-) TimerEvent: {}
+[9.132234] (-) TimerEvent: {}
+[9.232536] (-) TimerEvent: {}
+[9.332853] (-) TimerEvent: {}
+[9.433164] (-) TimerEvent: {}
+[9.533500] (-) TimerEvent: {}
+[9.633813] (-) TimerEvent: {}
+[9.734123] (-) TimerEvent: {}
+[9.834447] (-) TimerEvent: {}
+[9.934753] (-) TimerEvent: {}
+[10.035077] (-) TimerEvent: {}
+[10.135411] (-) TimerEvent: {}
+[10.235717] (-) TimerEvent: {}
+[10.336028] (-) TimerEvent: {}
+[10.436364] (-) TimerEvent: {}
+[10.536673] (-) TimerEvent: {}
+[10.636980] (-) TimerEvent: {}
+[10.737321] (-) TimerEvent: {}
+[10.837629] (-) TimerEvent: {}
+[10.937929] (-) TimerEvent: {}
+[11.038243] (-) TimerEvent: {}
+[11.138615] (-) TimerEvent: {}
+[11.238985] (-) TimerEvent: {}
+[11.339374] (-) TimerEvent: {}
+[11.439748] (-) TimerEvent: {}
+[11.540107] (-) TimerEvent: {}
+[11.640488] (-) TimerEvent: {}
+[11.740895] (-) TimerEvent: {}
+[11.782100] (servo_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable servoConfig\x1b[0m\n'}
+[11.841066] (-) TimerEvent: {}
+[11.941680] (-) TimerEvent: {}
+[12.042242] (-) TimerEvent: {}
+[12.142717] (-) TimerEvent: {}
+[12.243130] (-) TimerEvent: {}
+[12.343649] (-) TimerEvent: {}
+[12.390840] (servo_control) StdoutLine: {'line': b'[100%] Built target servoConfig\n'}
+[12.407917] (servo_control) CommandEnded: {'returncode': 0}
+[12.408633] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'install'}
+[12.422853] (servo_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andy/ros2_ws/build/servo_control'], 'cwd': '/home/andy/ros2_ws/build/servo_control', 'env': OrderedDict({'HOSTNAME': 'PipeBot', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/andy', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/andy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'AMENT_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/andy/ros2_ws/build/servo_control', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy'}), 'shell': False}
+[12.434194] (servo_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.434475] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/lib/servo_control/servo_node\n'}
+[12.434903] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/lib/servo_control/STServoTests\n'}
+[12.435331] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/lib/servo_control/moveServo\n'}
+[12.435774] (servo_control) StdoutLine: {'line': b'-- Installing: /home/andy/ros2_ws/install/servo_control/lib/servo_control/servoConfig\n'}
+[12.443749] (-) TimerEvent: {}
+[12.445201] (servo_control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/andy/ros2_ws/install/servo_control/lib/servo_control/servoConfig" to ""\n'}
+[12.445482] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/ament_index/resource_index/package_run_dependencies/servo_control\n'}
+[12.445603] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/ament_index/resource_index/parent_prefix_path/servo_control\n'}
+[12.445723] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/environment/ament_prefix_path.sh\n'}
+[12.445866] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/environment/ament_prefix_path.dsv\n'}
+[12.445957] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/environment/path.sh\n'}
+[12.446153] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/environment/path.dsv\n'}
+[12.446269] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/local_setup.bash\n'}
+[12.446387] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/local_setup.sh\n'}
+[12.446538] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/local_setup.zsh\n'}
+[12.446624] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/local_setup.dsv\n'}
+[12.446706] (servo_control) StdoutLine: {'line': b'-- Installing: /home/andy/ros2_ws/install/servo_control/share/servo_control/package.dsv\n'}
+[12.446786] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/ament_index/resource_index/packages/servo_control\n'}
+[12.446867] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/cmake/servo_controlConfig.cmake\n'}
+[12.446945] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/cmake/servo_controlConfig-version.cmake\n'}
+[12.447023] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/andy/ros2_ws/install/servo_control/share/servo_control/package.xml\n'}
+[12.449193] (servo_control) CommandEnded: {'returncode': 0}
+[12.470892] (servo_control) JobEnded: {'identifier': 'servo_control', 'rc': 0}
+[12.471918] (-) EventReactorShutdown: {}

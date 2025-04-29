@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.081s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.504s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.564s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.589s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.621s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.656s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.806s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.810s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.094s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.336s] -- Configuring done (1.3s)
+[1.398s] -- Generating done (0.0s)
+[1.418s] -- Build files have been written to: /home/andy/ros2_ws/build/servo_control
+[1.495s] [ 41%] Built target scservo_lib
+[1.549s] [ 58%] Built target STServoTests
+[1.550s] [ 64%] Built target servo_node
+[1.561s] [ 88%] Built target moveServo
+[1.561s] [ 88%] Built target servoConfig
+[1.590s] [ 94%] [32mBuilding CXX object CMakeFiles/changeId.dir/src/changeId.cpp.o[0m
+[2.165s] [01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kscservo/SCSerial.h: No such file or directory
+[2.165s]     4 | #include [01;31m[K"scservo/SCSerial.h"[m[K
+[2.166s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.166s] compilation terminated.
+[2.171s] gmake[2]: *** [CMakeFiles/changeId.dir/build.make:76: CMakeFiles/changeId.dir/src/changeId.cpp.o] Error 1
+[2.171s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/changeId.dir/all] Error 2
+[2.171s] gmake: *** [Makefile:146: all] Error 2
+[2.176s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4

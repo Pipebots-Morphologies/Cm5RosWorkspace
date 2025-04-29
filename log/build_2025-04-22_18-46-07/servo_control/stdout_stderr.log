@@ -1,0 +1,45 @@
+[ 41%] Built target scservo_lib
+[ 64%] Built target servo_node
+[ 64%] Built target STServoTests
+[ 88%] Built target moveServo
+[ 88%] Built target servoConfig
+[ 94%] [32mBuilding CXX object CMakeFiles/changeId.dir/src/changeId.cpp.o[0m
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:24:18:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+   24 |         sc.begin([01;31m[K"/dev/ttyAMA0"[m[K, 1000000); // Adjust port and baudrate
+      |                  [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                  [01;31m[K|[m[K
+      |                  [01;31m[Kconst char*[m[K
+In file included from [01m[K/home/andy/ros2_ws/src/servo_control/include/servo_control/SMSBL.h:63[m[K,
+                 from [01m[K/home/andy/ros2_ws/src/servo_control/include/servo_control/SCServo.h:11[m[K,
+                 from [01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:4[m[K:
+[01m[K/home/andy/ros2_ws/src/servo_control/include/servo_control/SCSerial.h:38:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvirtual bool SCSerial::[01;32m[Kbegin[m[K(int, const char*)[m[K’
+   38 |         virtual bool begin([01;36m[Kint baudRate[m[K, const char* serialPort);
+      |                            [01;36m[K~~~~^~~~~~~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:24:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K-fpermissive[m[K]
+   24 |         sc.begin("/dev/ttyAMA0", [01;31m[K1000000[m[K); // Adjust port and baudrate
+      |                                  [01;31m[K^~~~~~~[m[K
+      |                                  [01;31m[K|[m[K
+      |                                  [01;31m[Kint[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/include/servo_control/SCSerial.h:38:54:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvirtual bool SCSerial::[01;32m[Kbegin[m[K(int, const char*)[m[K’
+   38 |         virtual bool begin(int baudRate, [01;36m[Kconst char* serialPort[m[K);
+      |                                          [01;36m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:33:21:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+   33 |         sm_st.begin([01;31m[K"/dev/ttyAMA0"[m[K, 1000000); // Adjust port and baudrate
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kconst char*[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/include/servo_control/SCSerial.h:38:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvirtual bool SCSerial::[01;32m[Kbegin[m[K(int, const char*)[m[K’
+   38 |         virtual bool begin([01;36m[Kint baudRate[m[K, const char* serialPort);
+      |                            [01;36m[K~~~~^~~~~~~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:33:37:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K-fpermissive[m[K]
+   33 |         sm_st.begin("/dev/ttyAMA0", [01;31m[K1000000[m[K); // Adjust port and baudrate
+      |                                     [01;31m[K^~~~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kint[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/include/servo_control/SCSerial.h:38:54:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvirtual bool SCSerial::[01;32m[Kbegin[m[K(int, const char*)[m[K’
+   38 |         virtual bool begin(int baudRate, [01;36m[Kconst char* serialPort[m[K);
+      |                                          [01;36m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/changeId.dir/build.make:76: CMakeFiles/changeId.dir/src/changeId.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/changeId.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

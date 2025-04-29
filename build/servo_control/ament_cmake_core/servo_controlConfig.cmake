@@ -16,7 +16,7 @@ set(_servo_control_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT servo_control_FIND_QUIETLY)
-  message(STATUS "Found servo_control: 0.0.0 (${servo_control_DIR})")
+  message(STATUS "Found servo_control: 0.0.1 (${servo_control_DIR})")
 endif()
 
 # warn when using a deprecated package

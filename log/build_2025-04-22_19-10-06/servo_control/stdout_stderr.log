@@ -1,0 +1,17 @@
+[ 41%] Built target scservo_lib
+[ 64%] Built target STServoTests
+[ 64%] Built target servo_node
+[ 76%] Built target moveServo
+[ 82%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+[ 94%] Built target changeId
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:[m[K In constructor ‘[01m[KServoConfig::[01;32m[KServoConfig[m[K()[m[K’:
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:20:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   20 |         SMS_STS[01;31m[K.[m[Kbegin(1000000, serialPort);
+      |                [01;31m[K^[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:[m[K In destructor ‘[01m[Kvirtual ServoConfig::[01;32m[K~ServoConfig[m[K()[m[K’:
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:25:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   25 |         SMS_STS[01;31m[K.[m[Kend();
+      |                [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/servoConfig.dir/build.make:76: CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/servoConfig.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,26 @@
+[0.020s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.125s] [ 33%] Built target scservo_lib
+[0.178s] [ 52%] Built target servo_node
+[0.179s] [ 52%] Built target STServoTests
+[0.187s] [ 71%] Built target moveServo
+[0.187s] [ 71%] Built target servoConfig
+[0.239s] [ 90%] Built target servoRepair
+[0.239s] [ 90%] Built target servoFeedback
+[0.256s] [ 95%] [32mBuilding CXX object CMakeFiles/changeId.dir/src/changeId.cpp.o[0m
+[4.233s] [01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[4.233s] [01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:40:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SCSerial[m[K’ has no member named ‘[01m[KunLockEprom[m[K’
+[4.233s]    40 |         sm_st.[01;31m[KunLockEprom[m[K(old_id);
+[4.233s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[4.233s] [01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:42:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SCSerial[m[K’ has no member named ‘[01m[KLockEprom[m[K’
+[4.234s]    42 |         sm_st.[01;31m[KLockEprom[m[K(new_id);
+[4.234s]       |               [01;31m[K^~~~~~~~~[m[K
+[4.234s] [01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:46:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint ID[m[K’
+[4.234s]    46 |         int [01;31m[KID[m[K = sm_st.Ping(new_id);
+[4.234s]       |             [01;31m[K^~[m[K
+[4.234s] [01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:43:13:[m[K [01;36m[Knote: [m[K‘[01m[Kint ID[m[K’ previously declared here
+[4.234s]    43 |         int [01;36m[KID[m[K = sm_st.Ping(new_id);
+[4.234s]       |             [01;36m[K^~[m[K
+[5.255s] gmake[2]: *** [CMakeFiles/changeId.dir/build.make:76: CMakeFiles/changeId.dir/src/changeId.cpp.o] Error 1
+[5.255s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/changeId.dir/all] Error 2
+[5.255s] gmake: *** [Makefile:146: all] Error 2
+[5.259s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4

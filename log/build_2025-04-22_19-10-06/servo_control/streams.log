@@ -1,0 +1,19 @@
+[0.020s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.121s] [ 41%] Built target scservo_lib
+[0.172s] [ 64%] Built target STServoTests
+[0.172s] [ 64%] Built target servo_node
+[0.181s] [ 76%] Built target moveServo
+[0.190s] [ 82%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+[0.226s] [ 94%] Built target changeId
+[4.401s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:[m[K In constructor ‘[01m[KServoConfig::[01;32m[KServoConfig[m[K()[m[K’:
+[4.401s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:20:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+[4.401s]    20 |         SMS_STS[01;31m[K.[m[Kbegin(1000000, serialPort);
+[4.401s]       |                [01;31m[K^[m[K
+[4.401s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:[m[K In destructor ‘[01m[Kvirtual ServoConfig::[01;32m[K~ServoConfig[m[K()[m[K’:
+[4.401s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:25:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+[4.401s]    25 |         SMS_STS[01;31m[K.[m[Kend();
+[4.401s]       |                [01;31m[K^[m[K
+[7.344s] gmake[2]: *** [CMakeFiles/servoConfig.dir/build.make:76: CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o] Error 1
+[7.344s] gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/servoConfig.dir/all] Error 2
+[7.344s] gmake: *** [Makefile:146: all] Error 2
+[7.347s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4

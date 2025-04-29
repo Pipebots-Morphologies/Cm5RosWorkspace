@@ -1,0 +1,7 @@
+[ 46%] Built target scservo_lib
+[ 73%] Built target servo_node
+[ 73%] Built target STServoTests
+[ 80%] [32mBuilding CXX object CMakeFiles/moveServo.dir/src/moveServo.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable servoConfig[0m
+[ 93%] Built target servoConfig

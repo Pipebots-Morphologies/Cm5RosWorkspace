@@ -1,0 +1,8 @@
+[ 46%] Built target scservo_lib
+[ 73%] Built target STServoTests
+[ 73%] Built target servo_node
+[ 86%] Built target moveServo
+[ 93%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+gmake[2]: *** [CMakeFiles/servoConfig.dir/build.make:76: CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/servoConfig.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

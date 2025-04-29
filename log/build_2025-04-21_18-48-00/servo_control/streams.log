@@ -1,0 +1,22 @@
+[0.021s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.128s] [ 46%] Built target scservo_lib
+[0.183s] [ 73%] Built target servo_node
+[0.183s] [ 73%] Built target STServoTests
+[0.193s] [ 80%] [32mBuilding CXX object CMakeFiles/moveServo.dir/src/moveServo.cpp.o[0m
+[0.202s] [ 86%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+[4.666s] [01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:39:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before numeric constant
+[4.666s]    39 |     std::vector<int> SC3215 = { 2 [01;31m[K3[m[K};
+[4.666s]       |                                   [01;31m[K^[m[K
+[4.667s] [01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:39:31:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[4.667s]    39 |     std::vector<int> SC3215 = [01;36m[K{[m[K 2 3};
+[4.667s]       |                               [01;36m[K^[m[K
+[4.667s] [01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:39:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before numeric constant
+[4.667s]    39 |     std::vector<int> SC3215 = { 2 [01;31m[K3[m[K};
+[4.667s]       |                                   [01;31m[K^[m[K
+[7.902s] gmake[2]: *** [CMakeFiles/moveServo.dir/build.make:76: CMakeFiles/moveServo.dir/src/moveServo.cpp.o] Error 1
+[7.902s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/moveServo.dir/all] Error 2
+[7.902s] gmake[1]: *** Waiting for unfinished jobs....
+[12.283s] [ 93%] [32m[1mLinking CXX executable servoConfig[0m
+[12.871s] [ 93%] Built target servoConfig
+[12.873s] gmake: *** [Makefile:146: all] Error 2
+[12.876s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4

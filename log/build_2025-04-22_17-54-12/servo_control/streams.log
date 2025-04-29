@@ -1,0 +1,20 @@
+[0.021s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.126s] [ 46%] Built target scservo_lib
+[0.180s] [ 73%] Built target STServoTests
+[0.180s] [ 73%] Built target servo_node
+[0.190s] [ 80%] [32mBuilding CXX object CMakeFiles/moveServo.dir/src/moveServo.cpp.o[0m
+[0.199s] [ 86%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+[4.536s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:[m[K In member function ‘[01m[Kvoid ServoConfig::[01;32m[KchangeID[m[K()[m[K’:
+[4.536s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:153:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentId[m[K’ was not declared in this scope
+[4.536s]   153 |         [01;31m[KcurrentId[m[K = 1;
+[4.536s]       |         [01;31m[K^~~~~~~~~[m[K
+[4.548s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:154:9:[m[K [01;31m[Kerror: [m[K‘[01m[KnewId[m[K’ was not declared in this scope
+[4.548s]   154 |         [01;31m[KnewId[m[K = 3
+[4.548s]       |         [01;31m[K^~~~~[m[K
+[7.934s] gmake[2]: *** [CMakeFiles/servoConfig.dir/build.make:76: CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o] Error 1
+[7.934s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/servoConfig.dir/all] Error 2
+[7.934s] gmake[1]: *** Waiting for unfinished jobs....
+[12.129s] [ 93%] [32m[1mLinking CXX executable moveServo[0m
+[12.830s] [ 93%] Built target moveServo
+[12.832s] gmake: *** [Makefile:146: all] Error 2
+[12.835s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4

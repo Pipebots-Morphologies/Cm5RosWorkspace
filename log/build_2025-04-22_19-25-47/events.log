@@ -1,0 +1,48 @@
+[0.000000] (-) TimerEvent: {}
+[0.000576] (servo_control) JobQueued: {'identifier': 'servo_control', 'dependencies': OrderedDict()}
+[0.001462] (servo_control) JobStarted: {'identifier': 'servo_control'}
+[0.016214] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'cmake'}
+[0.017368] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'build'}
+[0.018436] (servo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andy/ros2_ws/build/servo_control', '--', '-j4', '-l4'], 'cwd': '/home/andy/ros2_ws/build/servo_control', 'env': OrderedDict({'HOSTNAME': 'PipeBot', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/andy', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/andy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'AMENT_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/andy/ros2_ws/build/servo_control', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy'}), 'shell': False}
+[0.075741] (servo_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099594] (-) TimerEvent: {}
+[0.199958] (-) TimerEvent: {}
+[0.300367] (-) TimerEvent: {}
+[0.400789] (-) TimerEvent: {}
+[0.475005] (servo_control) StdoutLine: {'line': b'-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500898] (-) TimerEvent: {}
+[0.523279] (servo_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.544218] (servo_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.569656] (servo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.599090] (servo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600982] (-) TimerEvent: {}
+[0.701272] (-) TimerEvent: {}
+[0.728961] (servo_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.731810] (servo_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801369] (-) TimerEvent: {}
+[0.857015] (servo_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901475] (-) TimerEvent: {}
+[0.981031] (servo_control) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.001562] (-) TimerEvent: {}
+[1.101856] (-) TimerEvent: {}
+[1.202221] (-) TimerEvent: {}
+[1.218420] (servo_control) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.227830] (servo_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:41 (add_executable):\n'}
+[1.228112] (servo_control) StderrLine: {'line': b'  Cannot find source file:\n'}
+[1.228250] (servo_control) StderrLine: {'line': b'\n'}
+[1.228411] (servo_control) StderrLine: {'line': b'    src/servoCFeedback.cpp\n'}
+[1.228535] (servo_control) StderrLine: {'line': b'\n'}
+[1.228653] (servo_control) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[1.228770] (servo_control) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[1.228891] (servo_control) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[1.229006] (servo_control) StderrLine: {'line': b'\n'}
+[1.229118] (servo_control) StderrLine: {'line': b'\x1b[0m\n'}
+[1.233045] (servo_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:41 (add_executable):\n'}
+[1.233326] (servo_control) StderrLine: {'line': b'  No SOURCES given to target: servoFeedback\n'}
+[1.233478] (servo_control) StderrLine: {'line': b'\n'}
+[1.233601] (servo_control) StderrLine: {'line': b'\x1b[0m\n'}
+[1.233717] (servo_control) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[1.246352] (servo_control) StderrLine: {'line': b'gmake: *** [Makefile:607: cmake_check_build_system] Error 1\n'}
+[1.250512] (servo_control) CommandEnded: {'returncode': 2}
+[1.273555] (servo_control) JobEnded: {'identifier': 'servo_control', 'rc': 2}
+[1.284237] (-) EventReactorShutdown: {}

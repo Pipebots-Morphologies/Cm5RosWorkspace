@@ -1,0 +1,14 @@
+[0.020s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.120s] [ 46%] Built target scservo_lib
+[0.171s] [ 73%] Built target STServoTests
+[0.171s] [ 73%] Built target servo_node
+[0.180s] [ 93%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+[0.180s] [ 93%] Built target moveServo
+[4.253s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:[m[K In member function ‘[01m[Kvoid ServoConfig::[01;32m[KrealtimeData[m[K(int)[m[K’:
+[4.253s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:126:208:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+[4.253s]   126 |             std::cout << sc.readWord(id, 0x38) << " " << sc.readWord(id, 0x3A) << " " << sc.readByte(id, 0x3C) << " " << sc.readByte(id, 0x3E) << " " << sc.readByte(id, 0x3F) << " " << sc.readByte(id, 0x41) [01;31m[Kstd[m[K::endl;
+[4.253s]       |                                                                                                                                                                                                                [01;31m[K^~~[m[K
+[7.214s] gmake[2]: *** [CMakeFiles/servoConfig.dir/build.make:76: CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o] Error 1
+[7.214s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/servoConfig.dir/all] Error 2
+[7.214s] gmake: *** [Makefile:146: all] Error 2
+[7.218s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4

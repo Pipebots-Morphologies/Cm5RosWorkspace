@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000505] (servo_control) JobQueued: {'identifier': 'servo_control', 'dependencies': OrderedDict()}
+[0.001011] (servo_control) JobStarted: {'identifier': 'servo_control'}
+[0.016158] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'cmake'}
+[0.017308] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'build'}
+[0.018391] (servo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andy/ros2_ws/build/servo_control', '--', '-j4', '-l4'], 'cwd': '/home/andy/ros2_ws/build/servo_control', 'env': OrderedDict({'HOSTNAME': 'PipeBot', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/andy', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/andy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'AMENT_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/andy/ros2_ws/build/servo_control', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy'}), 'shell': False}
+[0.099617] (-) TimerEvent: {}
+[0.128442] (servo_control) StdoutLine: {'line': b'[ 33%] Built target scservo_lib\n'}
+[0.181448] (servo_control) StdoutLine: {'line': b'[ 52%] Built target servo_node\n'}
+[0.181939] (servo_control) StdoutLine: {'line': b'[ 52%] Built target STServoTests\n'}
+[0.194900] (servo_control) StdoutLine: {'line': b'[ 71%] Built target servoConfig\n'}
+[0.195310] (servo_control) StdoutLine: {'line': b'[ 71%] Built target moveServo\n'}
+[0.199771] (-) TimerEvent: {}
+[0.241239] (servo_control) StdoutLine: {'line': b'[ 90%] Built target servoFeedback\n'}
+[0.241620] (servo_control) StdoutLine: {'line': b'[ 90%] Built target servoRepair\n'}
+[0.263115] (servo_control) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/changeId.dir/src/changeId.cpp.o\x1b[0m\n'}
+[0.299894] (-) TimerEvent: {}
+[0.400292] (-) TimerEvent: {}
+[0.500763] (-) TimerEvent: {}
+[0.601152] (-) TimerEvent: {}
+[0.701527] (-) TimerEvent: {}
+[0.801932] (-) TimerEvent: {}
+[0.902325] (-) TimerEvent: {}
+[1.002732] (-) TimerEvent: {}
+[1.103131] (-) TimerEvent: {}
+[1.203525] (-) TimerEvent: {}
+[1.303955] (-) TimerEvent: {}
+[1.404372] (-) TimerEvent: {}
+[1.504721] (-) TimerEvent: {}
+[1.605061] (-) TimerEvent: {}
+[1.705426] (-) TimerEvent: {}
+[1.805813] (-) TimerEvent: {}
+[1.906181] (-) TimerEvent: {}
+[2.006548] (-) TimerEvent: {}
+[2.106913] (-) TimerEvent: {}
+[2.207273] (-) TimerEvent: {}
+[2.307641] (-) TimerEvent: {}
+[2.408028] (-) TimerEvent: {}
+[2.508395] (-) TimerEvent: {}
+[2.608764] (-) TimerEvent: {}
+[2.709124] (-) TimerEvent: {}
+[2.809483] (-) TimerEvent: {}
+[2.909842] (-) TimerEvent: {}
+[3.010201] (-) TimerEvent: {}
+[3.110560] (-) TimerEvent: {}
+[3.210941] (-) TimerEvent: {}
+[3.311296] (-) TimerEvent: {}
+[3.411673] (-) TimerEvent: {}
+[3.512015] (-) TimerEvent: {}
+[3.612370] (-) TimerEvent: {}
+[3.712726] (-) TimerEvent: {}
+[3.813084] (-) TimerEvent: {}
+[3.913462] (-) TimerEvent: {}
+[4.013844] (-) TimerEvent: {}
+[4.114194] (-) TimerEvent: {}
+[4.214554] (-) TimerEvent: {}
+[4.257423] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.257810] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:27:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SCSerial\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KunLockEprom\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.257948] (servo_control) StderrLine: {'line': b'   27 |         sc.\x1b[01;31m\x1b[KunLockEprom\x1b[m\x1b[K(old_id);\n'}
+[4.258056] (servo_control) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.258174] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:31:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SCSerial\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KLockEprom\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.258278] (servo_control) StderrLine: {'line': b'   31 |         sc.\x1b[01;31m\x1b[KLockEprom\x1b[m\x1b[K(new_id);\n'}
+[4.258373] (servo_control) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.258469] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:38:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SCSerial\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KunLockEprom\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.258568] (servo_control) StderrLine: {'line': b'   38 |         sm_st.\x1b[01;31m\x1b[KunLockEprom\x1b[m\x1b[K(old_id);\n'}
+[4.258682] (servo_control) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.258789] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:42:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass SCSerial\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KLockEprom\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.258886] (servo_control) StderrLine: {'line': b'   42 |         sm_st.\x1b[01;31m\x1b[KLockEprom\x1b[m\x1b[K(new_id);\n'}
+[4.258979] (servo_control) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.314684] (-) TimerEvent: {}
+[4.415040] (-) TimerEvent: {}
+[4.515393] (-) TimerEvent: {}
+[4.615741] (-) TimerEvent: {}
+[4.716131] (-) TimerEvent: {}
+[4.816500] (-) TimerEvent: {}
+[4.916887] (-) TimerEvent: {}
+[5.017254] (-) TimerEvent: {}
+[5.117615] (-) TimerEvent: {}
+[5.217990] (-) TimerEvent: {}
+[5.294636] (servo_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/changeId.dir/build.make:76: CMakeFiles/changeId.dir/src/changeId.cpp.o] Error 1\n'}
+[5.295006] (servo_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/changeId.dir/all] Error 2\n'}
+[5.295241] (servo_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.299107] (servo_control) CommandEnded: {'returncode': 2}
+[5.318070] (-) TimerEvent: {}
+[5.318992] (servo_control) JobEnded: {'identifier': 'servo_control', 'rc': 2}
+[5.329604] (-) EventReactorShutdown: {}

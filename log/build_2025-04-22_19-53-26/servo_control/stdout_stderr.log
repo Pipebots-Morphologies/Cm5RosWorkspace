@@ -1,0 +1,24 @@
+[ 33%] Built target scservo_lib
+[ 52%] Built target servo_node
+[ 52%] Built target STServoTests
+[ 71%] Built target servoConfig
+[ 71%] Built target moveServo
+[ 90%] Built target servoFeedback
+[ 90%] Built target servoRepair
+[ 95%] [32mBuilding CXX object CMakeFiles/changeId.dir/src/changeId.cpp.o[0m
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:27:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SCSerial[m[K’ has no member named ‘[01m[KunLockEprom[m[K’
+   27 |         sc.[01;31m[KunLockEprom[m[K(old_id);
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:31:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SCSerial[m[K’ has no member named ‘[01m[KLockEprom[m[K’
+   31 |         sc.[01;31m[KLockEprom[m[K(new_id);
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:38:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SCSerial[m[K’ has no member named ‘[01m[KunLockEprom[m[K’
+   38 |         sm_st.[01;31m[KunLockEprom[m[K(old_id);
+      |               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/changeId.cpp:42:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SCSerial[m[K’ has no member named ‘[01m[KLockEprom[m[K’
+   42 |         sm_st.[01;31m[KLockEprom[m[K(new_id);
+      |               [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/changeId.dir/build.make:76: CMakeFiles/changeId.dir/src/changeId.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/changeId.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

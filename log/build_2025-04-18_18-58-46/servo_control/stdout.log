@@ -1,0 +1,22 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/andy/ros2_ws/build/servo_control
+[ 53%] Built target scservo_lib
+[ 61%] [32mBuilding CXX object CMakeFiles/moveServo.dir/src/moveServo.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/STServoTests.dir/src/STServoTests.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable STServoTests[0m
+[ 92%] [32m[1mLinking CXX executable servo_node[0m
+[ 92%] Built target STServoTests
+[ 92%] Built target servo_node
+[100%] [32m[1mLinking CXX executable moveServo[0m

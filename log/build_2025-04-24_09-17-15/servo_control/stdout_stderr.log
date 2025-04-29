@@ -1,0 +1,25 @@
+[ 33%] Built target scservo_lib
+[ 52%] Built target servo_node
+[ 52%] Built target STServoTests
+[ 66%] Built target servoConfig
+[ 66%] [32mBuilding CXX object CMakeFiles/moveServo.dir/src/moveServo.cpp.o[0m
+[ 85%] Built target servoFeedback
+[ 85%] Built target servoRepair
+[ 95%] Built target changeId
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:74:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   74 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+      |      [32m[K;[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:43:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kvoid[m[K’
+   43 |     [01;31m[Kvoid[m[K moveSc(int id) {
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:53:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kvoid[m[K’
+   53 |     [01;31m[Kvoid[m[K moveSt(int id) {
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:[m[K In constructor ‘[01m[KServoController::[01;32m[KServoController[m[K()[m[K’:
+[01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:13:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kservo_callback[m[K’ is not a member of ‘[01m[KServoController[m[K’
+   13 |             "servo_id", 10, std::bind(&ServoController::[01;31m[Kservo_callback[m[K, this, _1));
+      |                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveServo.dir/build.make:76: CMakeFiles/moveServo.dir/src/moveServo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/moveServo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,31 @@
+[0.025s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.196s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.598s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.657s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.680s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.710s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.888s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.892s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.029s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.167s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.396s] -- Configuring done (1.2s)
+[1.451s] -- Generating done (0.0s)
+[1.465s] -- Build files have been written to: /home/andy/ros2_ws/build/servo_control
+[1.549s] [ 53%] Built target scservo_lib
+[1.592s] [ 61%] [32mBuilding CXX object CMakeFiles/moveServo.dir/src/moveServo.cpp.o[0m
+[1.602s] [ 69%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[1.603s] [ 76%] [32mBuilding CXX object CMakeFiles/STServoTests.dir/src/STServoTests.cpp.o[0m
+[2.486s] [ 84%] [32m[1mLinking CXX executable STServoTests[0m
+[2.718s] [ 92%] [32m[1mLinking CXX executable servo_node[0m
+[2.836s] [ 92%] Built target STServoTests
+[2.959s] [ 92%] Built target servo_node
+[8.939s] [100%] [32m[1mLinking CXX executable moveServo[0m
+[9.316s] /usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':
+[9.316s] (.text+0x1c): undefined reference to `main'
+[9.316s] /usr/bin/ld: (.text+0x20): undefined reference to `main'
+[9.325s] collect2: error: ld returned 1 exit status
+[9.327s] gmake[2]: *** [CMakeFiles/moveServo.dir/build.make:172: moveServo] Error 1
+[9.327s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/moveServo.dir/all] Error 2
+[9.328s] gmake: *** [Makefile:146: all] Error 2
+[9.331s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4

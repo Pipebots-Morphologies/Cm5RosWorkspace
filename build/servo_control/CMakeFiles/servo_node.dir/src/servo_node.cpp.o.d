@@ -1,5 +1,5 @@
 CMakeFiles/servo_node.dir/src/servo_node.cpp.o: \
- /root/ros2_ws/src/servo_control/src/servo_node.cpp \
+ /home/andy/ros2_ws/src/servo_control/src/servo_node.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h \
@@ -151,11 +151,11 @@ CMakeFiles/servo_node.dir/src/servo_node.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /root/ros2_ws/src/servo_control/include/servo_control/SCServo.h \
- /root/ros2_ws/src/servo_control/include/servo_control/SMSBL.h \
- /root/ros2_ws/src/servo_control/include/servo_control/SCSerial.h \
- /root/ros2_ws/src/servo_control/include/servo_control/SCS.h \
- /root/ros2_ws/src/servo_control/include/servo_control/INST.h \
+ /home/andy/ros2_ws/src/servo_control/include/servo_control/SCServo.h \
+ /home/andy/ros2_ws/src/servo_control/include/servo_control/SMSBL.h \
+ /home/andy/ros2_ws/src/servo_control/include/servo_control/SCSerial.h \
+ /home/andy/ros2_ws/src/servo_control/include/servo_control/SCS.h \
+ /home/andy/ros2_ws/src/servo_control/include/servo_control/INST.h \
  /usr/include/termios.h /usr/include/aarch64-linux-gnu/bits/termios.h \
  /usr/include/aarch64-linux-gnu/bits/termios-struct.h \
  /usr/include/aarch64-linux-gnu/bits/termios-c_cc.h \
@@ -180,9 +180,9 @@ CMakeFiles/servo_node.dir/src/servo_node.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h /usr/include/string.h \
  /usr/include/strings.h \
- /root/ros2_ws/src/servo_control/include/servo_control/SCSCL.h \
- /root/ros2_ws/src/servo_control/include/servo_control/SMSCL.h \
- /root/ros2_ws/src/servo_control/include/servo_control/SMS_STS.h \
+ /home/andy/ros2_ws/src/servo_control/include/servo_control/SCSCL.h \
+ /home/andy/ros2_ws/src/servo_control/include/servo_control/SMSCL.h \
+ /home/andy/ros2_ws/src/servo_control/include/servo_control/SMS_STS.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \

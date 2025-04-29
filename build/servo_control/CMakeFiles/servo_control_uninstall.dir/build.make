@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_ws/src/servo_control
+CMAKE_SOURCE_DIR = /home/andy/ros2_ws/src/servo_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_ws/build/servo_control
+CMAKE_BINARY_DIR = /home/andy/ros2_ws/build/servo_control
 
 # Utility rule file for servo_control_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/servo_control_uninstall.dir/compiler_depend.make
 include CMakeFiles/servo_control_uninstall.dir/progress.make
 
 CMakeFiles/servo_control_uninstall:
-	/usr/bin/cmake -P /root/ros2_ws/build/servo_control/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/andy/ros2_ws/build/servo_control/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 servo_control_uninstall: CMakeFiles/servo_control_uninstall
 servo_control_uninstall: CMakeFiles/servo_control_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/servo_control_uninstall.dir/clean:
 .PHONY : CMakeFiles/servo_control_uninstall.dir/clean
 
 CMakeFiles/servo_control_uninstall.dir/depend:
-	cd /root/ros2_ws/build/servo_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/servo_control /root/ros2_ws/src/servo_control /root/ros2_ws/build/servo_control /root/ros2_ws/build/servo_control /root/ros2_ws/build/servo_control/CMakeFiles/servo_control_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/andy/ros2_ws/build/servo_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andy/ros2_ws/src/servo_control /home/andy/ros2_ws/src/servo_control /home/andy/ros2_ws/build/servo_control /home/andy/ros2_ws/build/servo_control /home/andy/ros2_ws/build/servo_control/CMakeFiles/servo_control_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/servo_control_uninstall.dir/depend
 

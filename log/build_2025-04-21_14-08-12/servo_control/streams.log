@@ -1,0 +1,14 @@
+[0.021s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.128s] [ 46%] Built target scservo_lib
+[0.181s] [ 73%] Built target STServoTests
+[0.181s] [ 73%] Built target servo_node
+[0.191s] [ 86%] Built target moveServo
+[0.201s] [ 93%] [32mBuilding CXX object CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o[0m
+[4.193s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:[m[K In member function ‘[01m[Kvoid ServoConfig::[01;32m[KrealtimeData[m[K(int)[m[K’:
+[4.194s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servoConfig.cpp:127:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[4.194s]   127 |         [01;31m[K}[m[K
+[4.194s]       |         [01;31m[K^[m[K
+[7.328s] gmake[2]: *** [CMakeFiles/servoConfig.dir/build.make:76: CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o] Error 1
+[7.329s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/servoConfig.dir/all] Error 2
+[7.329s] gmake: *** [Makefile:146: all] Error 2
+[7.332s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4

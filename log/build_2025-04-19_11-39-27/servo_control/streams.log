@@ -1,0 +1,18 @@
+[0.020s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.126s] [ 53%] Built target scservo_lib
+[0.174s] [ 76%] Built target servo_node
+[0.175s] [ 84%] Built target STServoTests
+[0.188s] [ 92%] [32mBuilding CXX object CMakeFiles/moveServo.dir/src/moveServo.cpp.o[0m
+[4.628s] [01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kind[m[K’ does not name a type; did you mean ‘[01m[Kint[m[K’?
+[4.628s]    40 |     [01;31m[Kind[m[K speed = 300;
+[4.628s]       |     [01;31m[K^~~[m[K
+[4.628s]       |     [32m[Kint[m[K
+[4.657s] [01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:[m[K In member function ‘[01m[Kvoid ServoController::[01;32m[KmoveSc[m[K(int)[m[K’:
+[4.657s] [01m[K/home/andy/ros2_ws/src/servo_control/src/moveServo.cpp:43:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope; did you mean ‘[01m[Kspeed_t[m[K’?
+[4.657s]    43 |         sc.WritePos(id, 1000, [01;31m[Kspeed[m[K, 1500);
+[4.657s]       |                               [01;31m[K^~~~~[m[K
+[4.657s]       |                               [32m[Kspeed_t[m[K
+[7.783s] gmake[2]: *** [CMakeFiles/moveServo.dir/build.make:76: CMakeFiles/moveServo.dir/src/moveServo.cpp.o] Error 1
+[7.784s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/moveServo.dir/all] Error 2
+[7.784s] gmake: *** [Makefile:146: all] Error 2
+[7.787s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4

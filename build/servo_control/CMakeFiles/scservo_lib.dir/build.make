@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_ws/src/servo_control
+CMAKE_SOURCE_DIR = /home/andy/ros2_ws/src/servo_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_ws/build/servo_control
+CMAKE_BINARY_DIR = /home/andy/ros2_ws/build/servo_control
 
 # Include any dependencies generated for this target.
 include CMakeFiles/scservo_lib.dir/depend.make
@@ -70,88 +70,88 @@ include CMakeFiles/scservo_lib.dir/progress.make
 include CMakeFiles/scservo_lib.dir/flags.make
 
 CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o: CMakeFiles/scservo_lib.dir/flags.make
-CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o: /root/ros2_ws/src/servo_control/src/lib/SCS.cpp
+CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o: /home/andy/ros2_ws/src/servo_control/src/lib/SCS.cpp
 CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o: CMakeFiles/scservo_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o -MF CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o.d -o CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o -c /root/ros2_ws/src/servo_control/src/lib/SCS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andy/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o -MF CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o.d -o CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.o -c /home/andy/ros2_ws/src/servo_control/src/lib/SCS.cpp
 
 CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ros2_ws/src/servo_control/src/lib/SCS.cpp > CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andy/ros2_ws/src/servo_control/src/lib/SCS.cpp > CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.i
 
 CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ros2_ws/src/servo_control/src/lib/SCS.cpp -o CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andy/ros2_ws/src/servo_control/src/lib/SCS.cpp -o CMakeFiles/scservo_lib.dir/src/lib/SCS.cpp.s
 
 CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o: CMakeFiles/scservo_lib.dir/flags.make
-CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o: /root/ros2_ws/src/servo_control/src/lib/SCSCL.cpp
+CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o: /home/andy/ros2_ws/src/servo_control/src/lib/SCSCL.cpp
 CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o: CMakeFiles/scservo_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o -MF CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o.d -o CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o -c /root/ros2_ws/src/servo_control/src/lib/SCSCL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andy/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o -MF CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o.d -o CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.o -c /home/andy/ros2_ws/src/servo_control/src/lib/SCSCL.cpp
 
 CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ros2_ws/src/servo_control/src/lib/SCSCL.cpp > CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andy/ros2_ws/src/servo_control/src/lib/SCSCL.cpp > CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.i
 
 CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ros2_ws/src/servo_control/src/lib/SCSCL.cpp -o CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andy/ros2_ws/src/servo_control/src/lib/SCSCL.cpp -o CMakeFiles/scservo_lib.dir/src/lib/SCSCL.cpp.s
 
 CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o: CMakeFiles/scservo_lib.dir/flags.make
-CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o: /root/ros2_ws/src/servo_control/src/lib/SCSerial.cpp
+CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o: /home/andy/ros2_ws/src/servo_control/src/lib/SCSerial.cpp
 CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o: CMakeFiles/scservo_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o -MF CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o.d -o CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o -c /root/ros2_ws/src/servo_control/src/lib/SCSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andy/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o -MF CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o.d -o CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.o -c /home/andy/ros2_ws/src/servo_control/src/lib/SCSerial.cpp
 
 CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ros2_ws/src/servo_control/src/lib/SCSerial.cpp > CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andy/ros2_ws/src/servo_control/src/lib/SCSerial.cpp > CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.i
 
 CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ros2_ws/src/servo_control/src/lib/SCSerial.cpp -o CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andy/ros2_ws/src/servo_control/src/lib/SCSerial.cpp -o CMakeFiles/scservo_lib.dir/src/lib/SCSerial.cpp.s
 
 CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o: CMakeFiles/scservo_lib.dir/flags.make
-CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o: /root/ros2_ws/src/servo_control/src/lib/SMSBL.cpp
+CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o: /home/andy/ros2_ws/src/servo_control/src/lib/SMSBL.cpp
 CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o: CMakeFiles/scservo_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o -MF CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o.d -o CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o -c /root/ros2_ws/src/servo_control/src/lib/SMSBL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andy/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o -MF CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o.d -o CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.o -c /home/andy/ros2_ws/src/servo_control/src/lib/SMSBL.cpp
 
 CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ros2_ws/src/servo_control/src/lib/SMSBL.cpp > CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andy/ros2_ws/src/servo_control/src/lib/SMSBL.cpp > CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.i
 
 CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ros2_ws/src/servo_control/src/lib/SMSBL.cpp -o CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andy/ros2_ws/src/servo_control/src/lib/SMSBL.cpp -o CMakeFiles/scservo_lib.dir/src/lib/SMSBL.cpp.s
 
 CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o: CMakeFiles/scservo_lib.dir/flags.make
-CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o: /root/ros2_ws/src/servo_control/src/lib/SMSCL.cpp
+CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o: /home/andy/ros2_ws/src/servo_control/src/lib/SMSCL.cpp
 CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o: CMakeFiles/scservo_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o -MF CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o.d -o CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o -c /root/ros2_ws/src/servo_control/src/lib/SMSCL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andy/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o -MF CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o.d -o CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o -c /home/andy/ros2_ws/src/servo_control/src/lib/SMSCL.cpp
 
 CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ros2_ws/src/servo_control/src/lib/SMSCL.cpp > CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andy/ros2_ws/src/servo_control/src/lib/SMSCL.cpp > CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.i
 
 CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ros2_ws/src/servo_control/src/lib/SMSCL.cpp -o CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andy/ros2_ws/src/servo_control/src/lib/SMSCL.cpp -o CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.s
 
 CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o: CMakeFiles/scservo_lib.dir/flags.make
-CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o: /root/ros2_ws/src/servo_control/src/lib/SMS_STS.cpp
+CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o: /home/andy/ros2_ws/src/servo_control/src/lib/SMS_STS.cpp
 CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o: CMakeFiles/scservo_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o -MF CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o.d -o CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o -c /root/ros2_ws/src/servo_control/src/lib/SMS_STS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andy/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o -MF CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o.d -o CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o -c /home/andy/ros2_ws/src/servo_control/src/lib/SMS_STS.cpp
 
 CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ros2_ws/src/servo_control/src/lib/SMS_STS.cpp > CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andy/ros2_ws/src/servo_control/src/lib/SMS_STS.cpp > CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.i
 
 CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ros2_ws/src/servo_control/src/lib/SMS_STS.cpp -o CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andy/ros2_ws/src/servo_control/src/lib/SMS_STS.cpp -o CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.s
 
 # Object files for target scservo_lib
 scservo_lib_OBJECTS = \
@@ -173,7 +173,7 @@ libscservo_lib.a: CMakeFiles/scservo_lib.dir/src/lib/SMSCL.cpp.o
 libscservo_lib.a: CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.o
 libscservo_lib.a: CMakeFiles/scservo_lib.dir/build.make
 libscservo_lib.a: CMakeFiles/scservo_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libscservo_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/andy/ros2_ws/build/servo_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libscservo_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/scservo_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scservo_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -186,6 +186,6 @@ CMakeFiles/scservo_lib.dir/clean:
 .PHONY : CMakeFiles/scservo_lib.dir/clean
 
 CMakeFiles/scservo_lib.dir/depend:
-	cd /root/ros2_ws/build/servo_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/servo_control /root/ros2_ws/src/servo_control /root/ros2_ws/build/servo_control /root/ros2_ws/build/servo_control /root/ros2_ws/build/servo_control/CMakeFiles/scservo_lib.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/andy/ros2_ws/build/servo_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andy/ros2_ws/src/servo_control /home/andy/ros2_ws/src/servo_control /home/andy/ros2_ws/build/servo_control /home/andy/ros2_ws/build/servo_control /home/andy/ros2_ws/build/servo_control/CMakeFiles/scservo_lib.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/scservo_lib.dir/depend
 

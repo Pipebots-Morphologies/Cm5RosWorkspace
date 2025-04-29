@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_ws/src/servo_control
+CMAKE_SOURCE_DIR = /home/andy/ros2_ws/src/servo_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_ws/build/servo_control
+CMAKE_BINARY_DIR = /home/andy/ros2_ws/build/servo_control
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros2_ws/build/servo_control/CMakeFiles /root/ros2_ws/build/servo_control//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andy/ros2_ws/build/servo_control/CMakeFiles /home/andy/ros2_ws/build/servo_control//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros2_ws/build/servo_control/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andy/ros2_ws/build/servo_control/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -222,6 +222,132 @@ servo_node: cmake_check_build_system
 servo_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_node.dir/build.make CMakeFiles/servo_node.dir/build
 .PHONY : servo_node/fast
+
+#=============================================================================
+# Target rules for targets named moveServo
+
+# Build rule for target.
+moveServo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moveServo
+.PHONY : moveServo
+
+# fast build rule for target.
+moveServo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveServo.dir/build.make CMakeFiles/moveServo.dir/build
+.PHONY : moveServo/fast
+
+#=============================================================================
+# Target rules for targets named STServoTests
+
+# Build rule for target.
+STServoTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 STServoTests
+.PHONY : STServoTests
+
+# fast build rule for target.
+STServoTests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STServoTests.dir/build.make CMakeFiles/STServoTests.dir/build
+.PHONY : STServoTests/fast
+
+#=============================================================================
+# Target rules for targets named servoConfig
+
+# Build rule for target.
+servoConfig: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 servoConfig
+.PHONY : servoConfig
+
+# fast build rule for target.
+servoConfig/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servoConfig.dir/build.make CMakeFiles/servoConfig.dir/build
+.PHONY : servoConfig/fast
+
+#=============================================================================
+# Target rules for targets named servoFeedback
+
+# Build rule for target.
+servoFeedback: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 servoFeedback
+.PHONY : servoFeedback
+
+# fast build rule for target.
+servoFeedback/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servoFeedback.dir/build.make CMakeFiles/servoFeedback.dir/build
+.PHONY : servoFeedback/fast
+
+#=============================================================================
+# Target rules for targets named servoRepair
+
+# Build rule for target.
+servoRepair: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 servoRepair
+.PHONY : servoRepair
+
+# fast build rule for target.
+servoRepair/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servoRepair.dir/build.make CMakeFiles/servoRepair.dir/build
+.PHONY : servoRepair/fast
+
+#=============================================================================
+# Target rules for targets named changeId
+
+# Build rule for target.
+changeId: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 changeId
+.PHONY : changeId
+
+# fast build rule for target.
+changeId/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/changeId.dir/build.make CMakeFiles/changeId.dir/build
+.PHONY : changeId/fast
+
+src/STServoTests.o: src/STServoTests.cpp.o
+.PHONY : src/STServoTests.o
+
+# target to build an object file
+src/STServoTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STServoTests.dir/build.make CMakeFiles/STServoTests.dir/src/STServoTests.cpp.o
+.PHONY : src/STServoTests.cpp.o
+
+src/STServoTests.i: src/STServoTests.cpp.i
+.PHONY : src/STServoTests.i
+
+# target to preprocess a source file
+src/STServoTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STServoTests.dir/build.make CMakeFiles/STServoTests.dir/src/STServoTests.cpp.i
+.PHONY : src/STServoTests.cpp.i
+
+src/STServoTests.s: src/STServoTests.cpp.s
+.PHONY : src/STServoTests.s
+
+# target to generate assembly for a file
+src/STServoTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STServoTests.dir/build.make CMakeFiles/STServoTests.dir/src/STServoTests.cpp.s
+.PHONY : src/STServoTests.cpp.s
+
+src/changeId.o: src/changeId.cpp.o
+.PHONY : src/changeId.o
+
+# target to build an object file
+src/changeId.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/changeId.dir/build.make CMakeFiles/changeId.dir/src/changeId.cpp.o
+.PHONY : src/changeId.cpp.o
+
+src/changeId.i: src/changeId.cpp.i
+.PHONY : src/changeId.i
+
+# target to preprocess a source file
+src/changeId.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/changeId.dir/build.make CMakeFiles/changeId.dir/src/changeId.cpp.i
+.PHONY : src/changeId.cpp.i
+
+src/changeId.s: src/changeId.cpp.s
+.PHONY : src/changeId.s
+
+# target to generate assembly for a file
+src/changeId.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/changeId.dir/build.make CMakeFiles/changeId.dir/src/changeId.cpp.s
+.PHONY : src/changeId.cpp.s
 
 src/lib/SCS.o: src/lib/SCS.cpp.o
 .PHONY : src/lib/SCS.o
@@ -367,6 +493,102 @@ src/lib/SMS_STS.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scservo_lib.dir/build.make CMakeFiles/scservo_lib.dir/src/lib/SMS_STS.cpp.s
 .PHONY : src/lib/SMS_STS.cpp.s
 
+src/moveServo.o: src/moveServo.cpp.o
+.PHONY : src/moveServo.o
+
+# target to build an object file
+src/moveServo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveServo.dir/build.make CMakeFiles/moveServo.dir/src/moveServo.cpp.o
+.PHONY : src/moveServo.cpp.o
+
+src/moveServo.i: src/moveServo.cpp.i
+.PHONY : src/moveServo.i
+
+# target to preprocess a source file
+src/moveServo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveServo.dir/build.make CMakeFiles/moveServo.dir/src/moveServo.cpp.i
+.PHONY : src/moveServo.cpp.i
+
+src/moveServo.s: src/moveServo.cpp.s
+.PHONY : src/moveServo.s
+
+# target to generate assembly for a file
+src/moveServo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveServo.dir/build.make CMakeFiles/moveServo.dir/src/moveServo.cpp.s
+.PHONY : src/moveServo.cpp.s
+
+src/servoConfig.o: src/servoConfig.cpp.o
+.PHONY : src/servoConfig.o
+
+# target to build an object file
+src/servoConfig.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servoConfig.dir/build.make CMakeFiles/servoConfig.dir/src/servoConfig.cpp.o
+.PHONY : src/servoConfig.cpp.o
+
+src/servoConfig.i: src/servoConfig.cpp.i
+.PHONY : src/servoConfig.i
+
+# target to preprocess a source file
+src/servoConfig.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servoConfig.dir/build.make CMakeFiles/servoConfig.dir/src/servoConfig.cpp.i
+.PHONY : src/servoConfig.cpp.i
+
+src/servoConfig.s: src/servoConfig.cpp.s
+.PHONY : src/servoConfig.s
+
+# target to generate assembly for a file
+src/servoConfig.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servoConfig.dir/build.make CMakeFiles/servoConfig.dir/src/servoConfig.cpp.s
+.PHONY : src/servoConfig.cpp.s
+
+src/servoFeedback.o: src/servoFeedback.cpp.o
+.PHONY : src/servoFeedback.o
+
+# target to build an object file
+src/servoFeedback.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servoFeedback.dir/build.make CMakeFiles/servoFeedback.dir/src/servoFeedback.cpp.o
+.PHONY : src/servoFeedback.cpp.o
+
+src/servoFeedback.i: src/servoFeedback.cpp.i
+.PHONY : src/servoFeedback.i
+
+# target to preprocess a source file
+src/servoFeedback.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servoFeedback.dir/build.make CMakeFiles/servoFeedback.dir/src/servoFeedback.cpp.i
+.PHONY : src/servoFeedback.cpp.i
+
+src/servoFeedback.s: src/servoFeedback.cpp.s
+.PHONY : src/servoFeedback.s
+
+# target to generate assembly for a file
+src/servoFeedback.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servoFeedback.dir/build.make CMakeFiles/servoFeedback.dir/src/servoFeedback.cpp.s
+.PHONY : src/servoFeedback.cpp.s
+
+src/servoRepair.o: src/servoRepair.cpp.o
+.PHONY : src/servoRepair.o
+
+# target to build an object file
+src/servoRepair.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servoRepair.dir/build.make CMakeFiles/servoRepair.dir/src/servoRepair.cpp.o
+.PHONY : src/servoRepair.cpp.o
+
+src/servoRepair.i: src/servoRepair.cpp.i
+.PHONY : src/servoRepair.i
+
+# target to preprocess a source file
+src/servoRepair.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servoRepair.dir/build.make CMakeFiles/servoRepair.dir/src/servoRepair.cpp.i
+.PHONY : src/servoRepair.cpp.i
+
+src/servoRepair.s: src/servoRepair.cpp.s
+.PHONY : src/servoRepair.s
+
+# target to generate assembly for a file
+src/servoRepair.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/servoRepair.dir/build.make CMakeFiles/servoRepair.dir/src/servoRepair.cpp.s
+.PHONY : src/servoRepair.cpp.s
+
 src/servo_node.o: src/servo_node.cpp.o
 .PHONY : src/servo_node.o
 
@@ -406,8 +628,20 @@ help:
 	@echo "... test"
 	@echo "... servo_control_uninstall"
 	@echo "... uninstall"
+	@echo "... STServoTests"
+	@echo "... changeId"
+	@echo "... moveServo"
 	@echo "... scservo_lib"
+	@echo "... servoConfig"
+	@echo "... servoFeedback"
+	@echo "... servoRepair"
 	@echo "... servo_node"
+	@echo "... src/STServoTests.o"
+	@echo "... src/STServoTests.i"
+	@echo "... src/STServoTests.s"
+	@echo "... src/changeId.o"
+	@echo "... src/changeId.i"
+	@echo "... src/changeId.s"
 	@echo "... src/lib/SCS.o"
 	@echo "... src/lib/SCS.i"
 	@echo "... src/lib/SCS.s"
@@ -426,6 +660,18 @@ help:
 	@echo "... src/lib/SMS_STS.o"
 	@echo "... src/lib/SMS_STS.i"
 	@echo "... src/lib/SMS_STS.s"
+	@echo "... src/moveServo.o"
+	@echo "... src/moveServo.i"
+	@echo "... src/moveServo.s"
+	@echo "... src/servoConfig.o"
+	@echo "... src/servoConfig.i"
+	@echo "... src/servoConfig.s"
+	@echo "... src/servoFeedback.o"
+	@echo "... src/servoFeedback.i"
+	@echo "... src/servoFeedback.s"
+	@echo "... src/servoRepair.o"
+	@echo "... src/servoRepair.i"
+	@echo "... src/servoRepair.s"
 	@echo "... src/servo_node.o"
 	@echo "... src/servo_node.i"
 	@echo "... src/servo_node.s"
