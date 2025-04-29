@@ -10,7 +10,7 @@ SCSCL sc;
 int milis = 1000;
 int timeStep = 0;
 std::vector<int> timeData;   // Time data points
-std::vector<double> speed;  // Speed data points
+std::vector<double> pos;  // Speed data points
 
 // represent the Speeds as Loads
  double speedToLoad(double crntSpeed){
@@ -30,17 +30,11 @@ bool Outlier(double crntSpeed){
 // update data on time and speed vectors
 void addData(int iterations){
     for (int i = 0; i < iterations; i++){
-        double crntSpeed = sc.ReadSpeed(1);
-        if (Outlier(crntSpeed)){
-            timeStep += 1;
-            usleep(milis);
-        }
-        if (!Outlier(crntSpeed)){
-            timeData.push_back(timeStep);
-            speed.push_back(speedToLoad(crntSpeed));
-            usleep(milis);
-            timeStep += 1;
-        }        
+        int position = sc.ReadPos(7);
+        timeData.push_back(timeStep);
+        pos.push_back(position);
+        usleep(milis);
+        timeStep += 1;     
     }
 }
 
@@ -62,22 +56,22 @@ int main(int argc, char **argv){
     }
 
     // declare variables form measuring rotations
-    int rotations = 4;
+    int rotations = 20;
     int Counter = 0;
     bool Rotation = false;
-    int StrtPos = sc.ReadPos(1);
+    int StrtPos = sc.ReadPos(7);
     int Pos;
 
     // set servo as PWM mode and send velocity
-    sc.PWMMode(1);
-    sc.WritePWM(1, 500);
+    sc.PWMMode(7);
+    sc.WritePWM(7, 800);
     usleep(100 * milis);
 
     // loop to complete rotations while collecting data
     while(Counter < rotations){
 
         // read speed and position
-        Pos = sc.ReadPos(1);
+        Pos = sc.ReadPos(7);
 
         // check whether a rotation has been completed
         if(Pos >= StrtPos - 20 && Pos <= StrtPos + 20){
@@ -92,7 +86,7 @@ int main(int argc, char **argv){
         // half second delay if a rotation is recorded - prevents double measurement
         if(Rotation){
             if(Counter == rotations) addData(1);        
-            else addData(500);
+            else addData(100);
             Rotation = false;          
         }
 
@@ -104,11 +98,11 @@ int main(int argc, char **argv){
     }
 
     // stop servo
-    sc.WritePWM(1, 0);
+    sc.WritePWM(7, 0);
 
     //write data from vectors to file
     for (size_t i = 0; i < timeData.size(); ++i) {
-        outFile << timeData[i] << " " << speed[i] << "\n";
+        outFile << timeData[i] << " " << pos[i] << "\n";
     }
     outFile.close();
 

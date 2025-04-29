@@ -703,12 +703,6 @@ CMakeFiles/moveServo.dir/src/moveServo.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/int32.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__builder.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__traits.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__type_support.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /home/andy/ros2_ws/src/servo_control/include/servo_control/SCServo.h \
  /home/andy/ros2_ws/src/servo_control/include/servo_control/SMSBL.h \
  /home/andy/ros2_ws/src/servo_control/include/servo_control/SCSerial.h \

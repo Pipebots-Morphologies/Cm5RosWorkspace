@@ -1,18 +1,13 @@
 #include <rclcpp/rclcpp.hpp>
-#include <std_msgs/msg/int32.hpp>
 #include "SCServo.h"
 #include <unistd.h>
 #include <iostream>
 #include <vector>
+#include <cstdlib>
 
 class ServoController : public rclcpp::Node {
 public:
-    ServoController() : Node("servo_controller") {
-        using std::placeholders::_1;
-        subscription_ = this->create_subscription<std_msgs::msg::Int32>(
-            "servo_id", 10, std::bind(&ServoController::servo_callback, this, _1));
-
-        // Initialize the serial connection
+    ServoController(int id, int pos) : Node("servo_controller"), servo_id(id), target_pos(pos) {
         const char* serialPort = "/dev/ttyAMA0";
         RCLCPP_INFO(this->get_logger(), "Using serial port: %s", serialPort);
 
@@ -22,61 +17,61 @@ public:
 
         sc.begin(1000000, serialPort);  
 
-        RCLCPP_INFO(this->get_logger(), "ServoController Node initialized.");
-    }
+        RCLCPP_INFO(this->get_logger(), "ServoController initialized with ID: %d, Pos: %d", servo_id, target_pos);
 
-    ~ServoController() {
+        if (std::find(SC09.begin(), SC09.end(), servo_id) != SC09.end()) {
+            moveSc(servo_id, target_pos);
+        } else if (std::find(SC3215.begin(), SC3215.end(), servo_id) != SC3215.end()) {
+            moveSt(servo_id, target_pos);
+        } else {
+            RCLCPP_WARN(this->get_logger(), "Unknown servo ID: %d", servo_id);
+        }
+
         sc.end();
         sm_st.end();
     }
 
 private:
-    rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr subscription_;
     SMS_STS sm_st;
     SCSCL sc;
 
     std::vector<int> SC09 = {4, 5, 6, 7, 8, 9};
     std::vector<int> SC3215 = {1, 2, 3};
+    int servo_id;
+    int target_pos;
     int speed = 800;
 
-    void moveSc(int id) {
-        sc.WritePos(id, 1000, 0, speed);
-        RCLCPP_INFO(this->get_logger(), "SC%02d pos = %d", id, 1000);
-        usleep(2187 * 1000);
+    void moveSc(int id, int pos) {
 
-        sc.WritePos(id, 510, 0, speed);
-        RCLCPP_INFO(this->get_logger(), "SC%02d pos = %d", id, 20);
-        usleep(2187 * 1000);
+        sc.writeByte(id, 0x30, 0);
+        sc.writeWord(id, 0x09, 20);     // CW angle limit
+        sc.writeWord(id, 0x0B, 1003);
+        sc.writeByte(id, 0x30, 0);
+
+        usleep(100000);
+        // 20 - 1003 mid point of 510
+        sc.WritePos(id, pos, 0, speed);
+        RCLCPP_INFO(this->get_logger(), "SC%02d -> pos = %d", id, pos);
     }
 
-    void moveSt(int id) {
-        sm_st.WritePosEx(id, 4095, 2400, 50);
-        RCLCPP_INFO(this->get_logger(), "ST%02d pos = %d", id, 4095);
-        usleep(2187 * 1000);
-
-        sm_st.WritePosEx(id, 2048, 2400, 50);
-        RCLCPP_INFO(this->get_logger(), "ST%02d pos = %d", id, 0);
-        usleep(2187 * 1000);
-    }
-
-    void servo_callback(const std_msgs::msg::Int32::SharedPtr msg) {
-        int id = msg->data;
-        RCLCPP_INFO(this->get_logger(), "Received servo ID: %d", id);
-
-        if (std::find(SC09.begin(), SC09.end(), id) != SC09.end()) {
-            moveSc(id);
-        } else if (std::find(SC3215.begin(), SC3215.end(), id) != SC3215.end()) {
-            moveSt(id);
-        } else {
-            RCLCPP_WARN(this->get_logger(), "Unknown servo ID: %d", id);
-        }
+    void moveSt(int id, int pos) {
+        // 0 - 4095 mid point of 2048 
+        sm_st.WritePosEx(id, pos, 2400, 50);
+        RCLCPP_INFO(this->get_logger(), "ST%02d -> pos = %d", id, pos);
     }
 };
 
-// 🔧 Add main() here to make it executable
 int main(int argc, char * argv[]) {
+    if (argc < 3) {
+        std::cerr << "Usage: servo_controller <servo_id> <position>\n";
+        return 1;
+    }
+
+    int id = std::atoi(argv[1]);
+    int pos = std::atoi(argv[2]);
+
     rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<ServoController>());
+    auto node = std::make_shared<ServoController>(id, pos);
     rclcpp::shutdown();
     return 0;
 }
