@@ -1,0 +1,40 @@
+[0.000000] (-) TimerEvent: {}
+[0.000513] (servo_control) JobQueued: {'identifier': 'servo_control', 'dependencies': OrderedDict()}
+[0.000966] (servo_control) JobStarted: {'identifier': 'servo_control'}
+[0.016453] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'cmake'}
+[0.017663] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'build'}
+[0.018847] (servo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andy/ros2_ws/build/servo_control', '--', '-j4', '-l4'], 'cwd': '/home/andy/ros2_ws/build/servo_control', 'env': OrderedDict({'HOSTNAME': 'PipeBot', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/andy', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/andy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'AMENT_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/andy/ros2_ws/build/servo_control', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/andy/ros2_ws/install/servo_control:/opt/ros/jazzy'}), 'shell': False}
+[0.099629] (-) TimerEvent: {}
+[0.128890] (servo_control) StdoutLine: {'line': b'[ 33%] Built target scservo_lib\n'}
+[0.183502] (servo_control) StdoutLine: {'line': b'[ 47%] Built target STServoTests\n'}
+[0.183960] (servo_control) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o\x1b[0m\n'}
+[0.197653] (servo_control) StdoutLine: {'line': b'[ 66%] Built target servoConfig\n'}
+[0.198081] (servo_control) StdoutLine: {'line': b'[ 66%] Built target moveServo\n'}
+[0.199773] (-) TimerEvent: {}
+[0.253780] (servo_control) StdoutLine: {'line': b'[ 76%] Built target servoFeedback\n'}
+[0.259309] (servo_control) StdoutLine: {'line': b'[ 90%] Built target changeId\n'}
+[0.259785] (servo_control) StdoutLine: {'line': b'[ 95%] Built target servoRepair\n'}
+[0.299893] (-) TimerEvent: {}
+[0.400292] (-) TimerEvent: {}
+[0.500707] (-) TimerEvent: {}
+[0.601139] (-) TimerEvent: {}
+[0.701560] (-) TimerEvent: {}
+[0.801970] (-) TimerEvent: {}
+[0.850760] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:12:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.851145] (servo_control) StderrLine: {'line': b'   12 | \x1b[01;31m\x1b[Kint\x1b[m\x1b[K milis = 1000;\n'}
+[0.851287] (servo_control) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.863765] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K addData\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.864044] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:38:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmilis\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.864183] (servo_control) StderrLine: {'line': b'   38 |         usleep(\x1b[01;31m\x1b[Kmilis\x1b[m\x1b[K);\n'}
+[0.864305] (servo_control) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.869826] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.870054] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:70:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmilis\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.870208] (servo_control) StderrLine: {'line': b'   70 |     usleep(100 * \x1b[01;31m\x1b[Kmilis\x1b[m\x1b[K);\n'}
+[0.870326] (servo_control) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.902067] (-) TimerEvent: {}
+[0.954872] (servo_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/servo_node.dir/build.make:76: CMakeFiles/servo_node.dir/src/servo_node.cpp.o] Error 1\n'}
+[0.955234] (servo_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:177: CMakeFiles/servo_node.dir/all] Error 2\n'}
+[0.955468] (servo_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.959838] (servo_control) CommandEnded: {'returncode': 2}
+[0.983288] (servo_control) JobEnded: {'identifier': 'servo_control', 'rc': 2}
+[0.985169] (-) EventReactorShutdown: {}

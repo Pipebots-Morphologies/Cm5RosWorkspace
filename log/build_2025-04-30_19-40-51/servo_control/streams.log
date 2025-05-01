@@ -1,0 +1,24 @@
+[0.019s] Invoking command in '/home/andy/ros2_ws/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4
+[0.114s] [ 33%] Built target scservo_lib
+[0.164s] [ 38%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[0.168s] [ 47%] Built target STServoTests
+[0.174s] [ 57%] Built target moveServo
+[0.175s] [ 66%] Built target servoConfig
+[0.226s] [ 76%] Built target servoFeedback
+[0.233s] [ 95%] Built target servoRepair
+[0.234s] [ 95%] Built target changeId
+[0.763s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+[0.763s]    12 | [01;31m[Kint[m[K milis = 1000;
+[0.763s]       | [01;31m[K^~~[m[K
+[0.774s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K addData[m[K(int)[m[K’:
+[0.774s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:38:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kmilis[m[K’ was not declared in this scope
+[0.775s]    38 |         usleep([01;31m[Kmilis[m[K);
+[0.775s]       |                [01;31m[K^~~~~[m[K
+[0.780s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[0.780s] [01m[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:70:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kmilis[m[K’ was not declared in this scope
+[0.780s]    70 |     usleep(100 * [01;31m[Kmilis[m[K);
+[0.780s]       |                  [01;31m[K^~~~~[m[K
+[0.857s] gmake[2]: *** [CMakeFiles/servo_node.dir/build.make:76: CMakeFiles/servo_node.dir/src/servo_node.cpp.o] Error 1
+[0.857s] gmake[1]: *** [CMakeFiles/Makefile2:177: CMakeFiles/servo_node.dir/all] Error 2
+[0.857s] gmake: *** [Makefile:146: all] Error 2
+[0.861s] Invoked command in '/home/andy/ros2_ws/build/servo_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/andy/ros2_ws/build/servo_control -- -j4 -l4

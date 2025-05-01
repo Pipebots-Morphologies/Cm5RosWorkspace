@@ -1,0 +1,22 @@
+[ 33%] Built target scservo_lib
+[ 47%] Built target STServoTests
+[ 47%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[ 66%] Built target servoConfig
+[ 66%] Built target moveServo
+[ 76%] Built target servoFeedback
+[ 90%] Built target changeId
+[ 95%] Built target servoRepair
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+   12 | [01;31m[Kint[m[K milis = 1000;
+      | [01;31m[K^~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K addData[m[K(int)[m[K’:
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:38:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kmilis[m[K’ was not declared in this scope
+   38 |         usleep([01;31m[Kmilis[m[K);
+      |                [01;31m[K^~~~~[m[K
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/andy/ros2_ws/src/servo_control/src/servo_node.cpp:70:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kmilis[m[K’ was not declared in this scope
+   70 |     usleep(100 * [01;31m[Kmilis[m[K);
+      |                  [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/servo_node.dir/build.make:76: CMakeFiles/servo_node.dir/src/servo_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:177: CMakeFiles/servo_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

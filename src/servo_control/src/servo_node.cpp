@@ -6,6 +6,8 @@
 
 SCSCL sc;
 
+int id = 4;
+
 //declare space variables
 int milis = 1000;
 int timeStep = 0;
@@ -30,7 +32,7 @@ bool Outlier(double crntSpeed){
 // update data on time and speed vectors
 void addData(int iterations){
     for (int i = 0; i < iterations; i++){
-        int position = sc.ReadPos(7);
+        int position = sc.ReadPos(id);
         timeData.push_back(timeStep);
         pos.push_back(position);
         usleep(milis);
@@ -56,22 +58,22 @@ int main(int argc, char **argv){
     }
 
     // declare variables form measuring rotations
-    int rotations = 20;
+    int rotations = 25;
     int Counter = 0;
     bool Rotation = false;
-    int StrtPos = sc.ReadPos(7);
+    int StrtPos = sc.ReadPos(id);
     int Pos;
 
     // set servo as PWM mode and send velocity
-    sc.PWMMode(7);
-    sc.WritePWM(7, 800);
+    sc.PWMMode(id);
+    sc.WritePWM(id, 800);
     usleep(100 * milis);
 
     // loop to complete rotations while collecting data
     while(Counter < rotations){
 
         // read speed and position
-        Pos = sc.ReadPos(7);
+        Pos = sc.ReadPos(id);
 
         // check whether a rotation has been completed
         if(Pos >= StrtPos - 20 && Pos <= StrtPos + 20){
@@ -98,7 +100,7 @@ int main(int argc, char **argv){
     }
 
     // stop servo
-    sc.WritePWM(7, 0);
+    sc.WritePWM(id, 0);
 
     //write data from vectors to file
     for (size_t i = 0; i < timeData.size(); ++i) {
